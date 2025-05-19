@@ -1,0 +1,44 @@
+/* navbar.css */
+.navbar-container {
+    @apply bg-white shadow-sm py-4 px-6 flex justify-between items-center ;
+    display: flex;
+  justify-content: space-between; /* Distribute space between left and right */
+  align-items: center;
+  padding: 6px 10px!important; 
+ color: #fff;
+  background-color:#2c3e50;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  /* position: relative;  */
+  width:100%;  z-index: 1000;
+}
+
+.logo {
+        @apply text-2xl font-bold text-gray-800;
+        height: 40px; 
+        cursor: pointer; 
+        max-width: 150px; 
+        object-fit: contain; 
+      }
+  
+.nav-items {
+    @apply hidden md:flex space-x-8 items-center;
+
+}
+
+.nav-link {
+    @apply text-gray-600 hover:text-blue-600 transition-colors;
+    color:#fff;
+}
+
+.contact-btn {
+    @apply bg-blue-600 text-white px-5 py-2  hover:bg-blue-700 transition-colors;
+    border-radius:10px;
+}
+
+.mobile-menu-btn {
+    @apply md:hidden text-gray-600 hover:text-blue-600;
+}
+
+.mobile-menu {
+    @apply absolute top-full left-0 right-0 bg-white shadow-md md:hidden py-4 px-6 space-y-4;
+}

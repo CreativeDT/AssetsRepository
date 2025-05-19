@@ -1,0 +1,66 @@
+/* styles.css (or any other CSS file you prefer) */
+
+.contact-us-background {
+    background-image: url('../../Assets/banner-abstract.jpg'); /* Adjust the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: theme('spacing.10'); /* Tailwind's padding scale (e.g., 40px) */
+    color: theme('colors.white'); /* Tailwind's white color */
+    /* Optional: Add a background overlay for better text readability */
+  }
+  
+  .contact-us-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    padding: theme('spacing.8'); /* Tailwind's padding scale (e.g., 32px) */
+    border-radius: theme('borderRadius.lg'); /* Optional rounded corners */
+  }
+  
+  /* You might need to adjust styles for the ContactUs component itself */
+  .contact-us-container {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-8; /* Tailwind's grid layout */
+  }
+  
+  .contact-info {
+    @apply text-white; /* Tailwind's white text color */
+  }
+  
+  .contact-info-title {
+    @apply text-2xl font-bold mb-6; /* Tailwind's text size and font weight */
+  }
+  
+  .contact-info-item {
+    @apply flex items-center mb-4;
+  }
+  
+  .contact-info-icon {
+    @apply text-teal-500 mr-3 text-lg; /* Tailwind's teal color and icon size */
+  }
+  
+  .contact-form-title {
+    @apply text-xl font-semibold text-gray-800 mb-4; /* Tailwind's text size and color */
+  }
+  
+  .contact-form {
+    @apply space-y-4; /* Tailwind's vertical spacing */
+  }
+  
+  .form-group {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-4; /* Tailwind's form grid */
+  }
+  
+  .form-label {
+    @apply block text-gray-700 text-sm font-bold mb-2; /* Tailwind's label styles */
+  }
+  
+  .form-input {
+    @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline; /* Tailwind's input styles */
+  }
+  
+  .form-textarea {
+    @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline h-20; /* Tailwind's textarea styles */
+  }
+  
+  .submit-button {
+    @apply bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline; /* Tailwind's button styles */
+  }
