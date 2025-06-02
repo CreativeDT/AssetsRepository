@@ -33,7 +33,7 @@ const CategorySection = ({ items, categoryName ,openVideoModal}) => {
             demoVideoLink={item.demoVideoLink}
             iconColor={item.iconColor}
           
-            openVideoModal={openVideoModal}
+            // openVideoModal={openVideoModal}
           />
         ))}
       </div>
