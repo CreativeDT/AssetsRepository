@@ -4,11 +4,23 @@ import CategorySection from "./CategorySection";
 // import { faCloud, faRobot, faDatabase, faFileAlt, faMapMarkedAlt, faBatteryFull } from '@fortawesome/free-solid-svg-icons';
 import {
   Brain,
-  Bot,
   Database,
-  FileSpreadsheet,
-  Map,
-  Battery,
+  Bot,
+  Route,
+  BatteryCharging,
+  FileSearch,
+  FileText,
+  LineChart,
+  LayoutDashboard,
+  School,
+  Globe,
+  Plane,
+  Users,
+  ClipboardList,
+  Workflow,
+  Settings,
+  Truck,
+  ScanLine,
 } from "lucide-react";
 
 const CategoriesPage = () => {
@@ -78,7 +90,7 @@ const CategoriesPage = () => {
           title: "Battery Life Optimization",
           description:
             "he Battery Life Optimization project aims to forecast the State of Health (SoH) of electric vehicle batteries using advanced machine learning techniques. The goal is to enable predictive maintenance, optimize route planning, and enhance battery performance through data-driven insights. A RESTful API was developed to serve predictions and visual analytics to a frontend dashboard. ",
-          icon: Bot,
+          icon: BatteryCharging,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/r/sites/DigitalTechnologies-All/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B720672ec-b12d-449a-a64e-aff96caf2bc6%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1748489230657&web=1",
@@ -91,7 +103,7 @@ const CategoriesPage = () => {
           title: "Route Optimization",
           description:
             "The Route Optimization solution offers optimized route planning along with predictions for fuel consumption and carbon emissions for fleet vehicles. ",
-          icon: Bot,
+          icon: Route,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7B18501E7C-9A1C-4516-A1AB-C0C01B96F20B%7D&file=RouteOptimization.pptx&action=edit&mobileredirect=true",
@@ -104,7 +116,7 @@ const CategoriesPage = () => {
           title: "P&ID",
           description:
             "To develop a solution that can help detect the piping and instrumentation symbols from the diagram using computer vision. The goal is to generate an excel sheet that will act as a starter for creation of MTO sheet which eventually leads to reducing manual efforts from an engineer. ",
-          icon: Bot,
+          icon: FileSearch,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EY1_xQA02vVImCLeQsl_ehwBTJn_ywC5rUDhtXmzUlRnJg?e=r0qWYV",
@@ -112,6 +124,32 @@ const CategoriesPage = () => {
             "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EYPSaqoOGBhLsFJ2TmPzB_sBsWfxB2JaE8zO7u4YxRR4Ng?e=5xpWVG",
           demoVideoLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F10%20Demo%2FSymbol%20Detection%20Demo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E00f87d7a%2D569b%2D42e3%2D8f3f%2Dfd26c77f9230",
+        },
+        {
+          title: "Freight Tracker",
+          description:
+            "To develop a solution that can help detect the piping and instrumentation symbols from the diagram using computer vision. The goal is to generate an excel sheet that will act as a starter for creation of MTO sheet which eventually leads to reducing manual efforts from an engineer. ",
+          icon: Truck,
+          iconColor: "text-blue-500",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EY1_xQA02vVImCLeQsl_ehwBTJn_ywC5rUDhtXmzUlRnJg?e=r0qWYV",
+          documentationLink:
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EYPSaqoOGBhLsFJ2TmPzB_sBsWfxB2JaE8zO7u4YxRR4Ng?e=5xpWVG",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F10%20Demo%2FSymbol%20Detection%20Demo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E00f87d7a%2D569b%2D42e3%2D8f3f%2Dfd26c77f9230",
+        },
+        {
+          title: "AI Powered Real Time ETL Prediction",
+          description:
+            "To develop a solution that can help detect the piping and instrumentation symbols from the diagram using computer vision. The goal is to generate an excel sheet that will act as a starter for creation of MTO sheet which eventually leads to reducing manual efforts from an engineer. ",
+          icon: Plane,
+          iconColor: "text-blue-500",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EUCV7ndThjBBilnSrYawDxYB8E9OZYsiYG86boEbdkjTbQ?wdOrigin=TEAMS-MAGLEV.p2p_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1748942651612&web=1",
+          documentationLink:
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EYPSaqoOGBhLsFJ2TmPzB_sBsWfxB2JaE8zO7u4YxRR4Ng?e=5xpWVG",
+          demoVideoLink:
+            "https://globalcsg-my.sharepoint.com/:v:/g/personal/pawan_sharma_global-csg_com/EXnjBpl6eDRCi2g6sAvv60EB71948410muWjIBmgVDrC1A",
         },
       ],
     },
@@ -134,7 +172,7 @@ const CategoriesPage = () => {
         {
           title: "FSM",
           description: "AI-powered driver monitoring solutions...",
-          icon: Bot,
+          icon: Users,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/ET0ntQGALPRBi8kv6hP49ogBalyJ7Dx4PFi4oCTcgacVjQ?e=2IOx3E",
@@ -147,7 +185,7 @@ const CategoriesPage = () => {
           title: "P&ID",
           description:
             "To develop a solution that can help detect the piping and instrumentation symbols from the diagram using computer vision. The goal is to generate an excel sheet that will act as a starter for creation of MTO sheet which eventually leads to reducing manual efforts from an engineer. ",
-          icon: Bot,
+          icon: FileSearch,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EY1_xQA02vVImCLeQsl_ehwBTJn_ywC5rUDhtXmzUlRnJg?e=r0qWYV",
@@ -160,7 +198,7 @@ const CategoriesPage = () => {
           title: "Route Optimization",
           description:
             "The Route Optimization solution offers optimized route planning along with predictions for fuel consumption and carbon emissions for fleet vehicles. ",
-          icon: Bot,
+          icon: Route,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7B18501E7C-9A1C-4516-A1AB-C0C01B96F20B%7D&file=RouteOptimization.pptx&action=edit&mobileredirect=true",
@@ -173,7 +211,7 @@ const CategoriesPage = () => {
           title: "Battery Life Optimization",
           description:
             "he Battery Life Optimization project aims to forecast the State of Health (SoH) of electric vehicle batteries using advanced machine learning techniques. The goal is to enable predictive maintenance, optimize route planning, and enhance battery performance through data-driven insights. A RESTful API was developed to serve predictions and visual analytics to a frontend dashboard. ",
-          icon: Bot,
+          icon: BatteryCharging,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/r/sites/DigitalTechnologies-All/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B720672ec-b12d-449a-a64e-aff96caf2bc6%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1748489230657&web=1",
@@ -187,7 +225,7 @@ const CategoriesPage = () => {
           title: "DigiVAVE",
           description:
             "DigiVAVE is an enterprise-grade Value Analysis & Value Engineering (VAVE) platform designed to manage projects through various lifecycle phases. The platform provides data collection, analysis, phase tracking, and reporting functionalities, supported by a modern web interface ",
-          icon: Bot,
+          icon: LayoutDashboard,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EenilGjVQ6pBqyAkt0Ix-AkB1-Cdo5amWg96jBGTnhsQow?e=m6vw6s",
@@ -205,7 +243,7 @@ const CategoriesPage = () => {
           title: "DigiVAVE",
           description:
             "DigiVAVE is an enterprise-grade Value Analysis & Value Engineering (VAVE) platform designed to manage projects through various lifecycle phases. The platform provides data collection, analysis, phase tracking, and reporting functionalities, supported by a modern web interface ",
-          icon: Bot,
+          icon: LayoutDashboard,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EenilGjVQ6pBqyAkt0Ix-AkB1-Cdo5amWg96jBGTnhsQow?e=m6vw6s",
@@ -217,7 +255,7 @@ const CategoriesPage = () => {
         {
           title: "HRSS Power BI Report",
           description: "Fuel consumption monitoring systems...",
-          icon: Bot,
+          icon: LineChart,
           iconColor: "text-blue-500",
           pitchDeckLink: "https://example.com/pitch-deck",
           documentationLink: "https://example.com/docs",
@@ -233,17 +271,20 @@ const CategoriesPage = () => {
           description:
             "LMS (Learning Management System) is  software platform used to create, Nomination, manage, and track  courses or training programs.",
           //  viewLink: 'https://globalcsg.sharepoint.com/sites/DT-EngineeringTeam/_layouts/15/embed.aspx?UniqueId=e48ff12b-a202-4f22-a3e4-334a62b3e392&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create',
-          icon: Bot,
+          icon: School,
           iconColor: "text-blue-500",
-          pitchDeckLink: "https://example.com/pitch-deck",
-          documentationLink: "https://example.com/docs",
-          demoVideoLink: "https://example.com/demo-video",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EVFS8kqdmhFBiXjRcXzKoKAB33fNcqOw6AfZo-71fKDiBQ?e=hSR0dF",
+          documentationLink:
+            "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/EVozzKy8DmtKhOA7WtCHPJsBvnfCLYkvPWNL1aaWSlIt4w?e=KbYa4N",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FLMS%2FLMS%5FRecodings%2FLMS%5Fshort%5Foverview%5Frecording%5F02%2DJune%2D2025%2Emp4&ga=1&LOF=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E9a344bc3%2D900e%2D4f69%2D9ec5%2Dfb61e78924a6",
         },
         {
           title: "Knowledge Bot",
           description:
             "The Knowledge Bot System provides a secure, scalable solution for real-time Q&A from unstructured documents using RAG, local LLMs, and multilingual support. It ensures data privacy on local infrastructure while enhancing user experience with translation, chat history, and contextual awareness.",
-          icon: Bot,
+          icon: Globe,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EceW3DJPXSVHv0oKVCUk8TYBMNoGIpGiC7tLF---QReA6A?e=bKStFx",
@@ -260,7 +301,7 @@ const CategoriesPage = () => {
           title: "HRSS Mobility",
           description:
             "Creative Synergies is currently handling travel requests using Excel-based forms. This project intends to convert these forms into a web-based application to manage the end-to-end workflow of travel requests across Domestic, Business, and Work Permit categories. The goal is to streamline submission, approval, and tracking processes for employees, managers, HR, and travel teams.",
-          icon: Bot,
+          icon: Plane,
           iconColor: "text-blue-500",
           pitchDeckLink: "https://example.com/pitch-deck",
           documentationLink: "https://example.com/docs",
@@ -269,7 +310,7 @@ const CategoriesPage = () => {
         {
           title: "HRSS Power BI Report",
           description: "Fuel consumption monitoring systems...",
-          icon: Bot,
+          icon: LineChart,
           iconColor: "text-blue-500",
           pitchDeckLink: "https://example.com/pitch-deck",
           documentationLink: "https://example.com/docs",
@@ -279,7 +320,7 @@ const CategoriesPage = () => {
           title: "HRBP Connect",
           description:
             "Creative Synergies is currently handling travel requests using Excel-based forms. This project intends to convert these forms into a web-based application to manage the end-to-end workflow of travel requests across Domestic, Business, and Work Permit categories. The goal is to streamline submission, approval, and tracking processes for employees, managers, HR, and travel teams.",
-          icon: Bot,
+          icon: ClipboardList,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EdWitrvPTL1FlYWDV0D3IN0BJhIHL_JAcw45stZpYea09g?e=4bxOz9",
@@ -296,7 +337,7 @@ const CategoriesPage = () => {
         {
           title: "FSM",
           description: "AI-powered driver monitoring solutions...",
-          icon: Bot,
+          icon: Workflow,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/ET0ntQGALPRBi8kv6hP49ogBalyJ7Dx4PFi4oCTcgacVjQ?e=2IOx3E",
@@ -309,7 +350,7 @@ const CategoriesPage = () => {
           title: "Route Optimization",
           description:
             "The Route Optimization solution offers optimized route planning along with predictions for fuel consumption and carbon emissions for fleet vehicles. ",
-          icon: Bot,
+          icon: Route,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7B18501E7C-9A1C-4516-A1AB-C0C01B96F20B%7D&file=RouteOptimization.pptx&action=edit&mobileredirect=true",
