@@ -137,6 +137,10 @@ const FeaturedSection = () => {
               icon={feature.icon}
               description={feature.description}
               iconColor={feature.iconColor}
+              pitchDeckLink={feature.pitchDeckLink}
+              documentationLink={feature.documentationLink}
+              demoVideoLink={feature.demoVideoLink}
+              isUpcoming={feature.isUpcoming}
             />
           ))}
         </div>
