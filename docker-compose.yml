@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: asset-repo
+    ports:
+      - "9000:9000"
+    volumes:
+      - /data/docker_volumes/asset-repo/ssl:/etc/ssl
+    restart: unless-stopped
+
