@@ -39,7 +39,8 @@ const CategoriesPage = () => {
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EUCV7ndThjBBilnSrYawDxYB8E9OZYsiYG86boEbdkjTbQ?wdOrigin=TEAMS-MAGLEV.p2p_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1748942651612&web=1",
-          documentationLink: "NA",
+          documentationLink:
+            "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/EXmuqmNJj1hMueTLnz0stRUBRnNcN_J5LhAdN68m6JThLw?e=IVC6cD",
           demoVideoLink:
             "https://globalcsg-my.sharepoint.com/:v:/g/personal/pawan_sharma_global-csg_com/EXnjBpl6eDRCi2g6sAvv60EB71948410muWjIBmgVDrC1A",
         },
@@ -50,7 +51,7 @@ const CategoriesPage = () => {
           icon: BatteryCharging,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/r/sites/DigitalTechnologies-All/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B720672ec-b12d-449a-a64e-aff96caf2bc6%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1748489230657&web=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F01%20Project%20Vision%20and%20Goals%2FBattery%20SOH%20optimization%20using%20AI%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/EelkLtofYyZEnGgFh1KfgAwB_EnlBmdawb9zpGnlW_OIwg?e=bC1dXx",
           demoVideoLink:
@@ -75,9 +76,12 @@ const CategoriesPage = () => {
             "Freight Tracker is an AI/ML-powered logistics solution that enables real-time tracking and intelligent monitoring of freight shipments. Leveraging machine learning algorithms, it predicts estimated time of arrival (ETA), detects route anomalies, and identifies potential delays before they occur. With geospatial data, predictive analytics, and automated alerts, the system optimizes delivery routes and improves supply chain visibility, driving operational efficiency and timely decision-making.",
           icon: Truck,
           iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFreight%20Tracker%2F09%20Meetings%20%26%20Misc%2FFreightTracker%5FMarch25%5F2025%20v0%2E1%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFreight%20Tracker%2F09%20Meetings%20%26%20Misc&p=true&ga=1",
+          documentationLink:
+            "https://globalcsg-my.sharepoint.com/:p:/g/personal/kushagra_pathak_global-csg_com/ES6S1AnROaZJp9k2_n-1FecB-jtPile0uuZp5YkU3veCmw?e=FeIoTU",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFreight%20Tracker%2FDemo%20Recording%2FFreight%20Allocator%20%2D%20Demo%201%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5025df7e%2Da645%2D46d1%2D894f%2Dd614667a3636",
         },
         {
           title: "Knowledge Bot",
@@ -86,9 +90,9 @@ const CategoriesPage = () => {
           icon: Bot,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EceW3DJPXSVHv0oKVCUk8TYBMNoGIpGiC7tLF---QReA6A?e=bKStFx",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments%2FEffort%20Metrics%20%2D%20Knowledge%20Bot%20%281%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments&p=true&ga=1&LOF=1",
           documentationLink:
-            "https://globalcsg.sharepoint.com/:w:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7B713646FA-984B-42BE-A75A-D1F301AF2198%7D&file=Route_Optimization_HLD_Document.docx&action=default&mobileredirect=true",
+            "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/EVf5_L5bPHNCg_bjTh37Wn0BiH-GbEX4a184Pz3xE48lSQ?e=gkbOTH",
           demoVideoLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments%2FKnowledge%5Fbot%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ea0c162d6%2D05d3%2D4ef6%2D9c7b%2D209c4b0a6972",
         },
@@ -99,7 +103,7 @@ const CategoriesPage = () => {
           description:
             "To develop a Proof of Concept (PoC) for generating Instruction Line (IL) / Programmable Logic Control (PLC) code using Large Language Models (LLMs)",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EZkw7zLsG-NHkHzOOo0EbkIBIcbBFVuvCQbQ0A6m5X-Bsg?e=kawbX6",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc%2FNatural%20Language%20to%20PLC%20Instruction%20Generation%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc&p=true&ga=1&LOF=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EcXYEPGONrlNvHwDCeYOHMoBX6dDhOmEhh8sKB6_A8jwCQ?e=llrUdP",
           demoVideoLink:
@@ -112,7 +116,7 @@ const CategoriesPage = () => {
           icon: FileSearch,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EY1_xQA02vVImCLeQsl_ehwBTJn_ywC5rUDhtXmzUlRnJg?e=r0qWYV",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F09%20Meetings%20and%20Misc%2FSymbol%20Detection%20PID%20%2D%20Presentation%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F09%20Meetings%20and%20Misc&p=true&ga=1&LOF=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EYPSaqoOGBhLsFJ2TmPzB_sBsWfxB2JaE8zO7u4YxRR4Ng?e=5xpWVG",
           demoVideoLink:
@@ -125,9 +129,9 @@ const CategoriesPage = () => {
           icon: Route,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7B18501E7C-9A1C-4516-A1AB-C0C01B96F20B%7D&file=RouteOptimization.pptx&action=edit&mobileredirect=true",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals%2FRouteOptimization%5Fv1%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
           documentationLink:
-            "https://globalcsg.sharepoint.com/:w:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7BED4954E2-A365-4CDC-8780-F370716D5056%7D&file=Technical_Design_Document_Template.docx&action=default&mobileredirect=true",
+            "https://globalcsg.sharepoint.com/:w:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7B713646FA-984B-42BE-A75A-D1F301AF2198%7D&file=Route_Optimization_HLD_Document.docx&action=default&mobileredirect=true",
           demoVideoLink:
             "https://globalcsg-my.sharepoint.com/personal/renuka_gaddam_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Frenuka%5Fgaddam%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FScreen%20Recording%202025%2D05%2D29%20192527%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75af0642%2D6f5e%2D47cd%2D9f03%2Db59070dd9f54",
         },
@@ -143,7 +147,7 @@ const CategoriesPage = () => {
           icon: LayoutDashboard,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EenilGjVQ6pBqyAkt0Ix-AkB1-Cdo5amWg96jBGTnhsQow?e=m6vw6s",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE%2FCREATIVE%5FDigiVAVE%5FTool%20Pitch%20Desk%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE&p=true&ga=1&LOF=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/EXWljlMmT5ZCslNKz62FT1gBwx_-XS3eV0kgLZoJI2ysEg?e=vGxTZA",
           demoVideoLink:
@@ -156,7 +160,7 @@ const CategoriesPage = () => {
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EbeODMwKRwxGgWPR2hK7KlgB2fM0dmMKIlTF76oYOQdhPg?e=eiuJH2",
-          documentationLink: "https://example.com/docs",
+          documentationLink: "NA",
           demoVideoLink:
             "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EUM3qWgpxL5ClpSN1lVebmkB0BuxSJKIIA0HEZYGjIPjRg?e=19n0d3",
         },
@@ -172,7 +176,7 @@ const CategoriesPage = () => {
           icon: Workflow,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/ET0ntQGALPRBi8kv6hP49ogBalyJ7Dx4PFi4oCTcgacVjQ?e=2IOx3E",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2FFSM%20Pitch%20Desk%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM&p=true&ga=1&LOF=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/ESYhUDU1zbZCtLZRKujIXTsB4ophhk-bFxSURiVGN22n8w?e=2ipNfd",
           demoVideoLink:
@@ -185,9 +189,9 @@ const CategoriesPage = () => {
           icon: Route,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7B18501E7C-9A1C-4516-A1AB-C0C01B96F20B%7D&file=RouteOptimization.pptx&action=edit&mobileredirect=true",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals%2FRouteOptimization%5Fv1%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
           documentationLink:
-            "https://globalcsg.sharepoint.com/:w:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7BED4954E2-A365-4CDC-8780-F370716D5056%7D&file=Technical_Design_Document_Template.docx&action=default&mobileredirect=true",
+            "https://globalcsg.sharepoint.com/:w:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7B713646FA-984B-42BE-A75A-D1F301AF2198%7D&file=Route_Optimization_HLD_Document.docx&action=default&mobileredirect=true",
           demoVideoLink:
             "https://globalcsg-my.sharepoint.com/personal/renuka_gaddam_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Frenuka%5Fgaddam%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FScreen%20Recording%202025%2D05%2D29%20192527%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75af0642%2D6f5e%2D47cd%2D9f03%2Db59070dd9f54",
         },
@@ -203,7 +207,7 @@ const CategoriesPage = () => {
           icon: Globe,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EceW3DJPXSVHv0oKVCUk8TYBMNoGIpGiC7tLF---QReA6A?e=bKStFx",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments%2FEffort%20Metrics%20%2D%20Knowledge%20Bot%20%281%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments&p=true&ga=1&LOF=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/EVf5_L5bPHNCg_bjTh37Wn0BiH-GbEX4a184Pz3xE48lSQ?e=gkbOTH",
           demoVideoLink:
@@ -213,11 +217,10 @@ const CategoriesPage = () => {
           title: "LMS",
           description:
             "LMS (Learning Management System) is  software platform used to create, Nomination, manage, and track  courses or training programs.",
-          //  viewLink: 'https://globalcsg.sharepoint.com/sites/DT-EngineeringTeam/_layouts/15/embed.aspx?UniqueId=e48ff12b-a202-4f22-a3e4-334a62b3e392&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create',
           icon: School,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EVFS8kqdmhFBiXjRcXzKoKAB33fNcqOw6AfZo-71fKDiBQ?e=hSR0dF",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EcO4vNaHajdNqNUdf0WjIisBfLDwYXS1S65yZOS-mLO3GQ?e=hY3sa0",
           documentationLink:
             "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/EVozzKy8DmtKhOA7WtCHPJsBvnfCLYkvPWNL1aaWSlIt4w?e=KbYa4N",
           demoVideoLink:
@@ -235,7 +238,7 @@ const CategoriesPage = () => {
           icon: BatteryCharging,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/r/sites/DigitalTechnologies-All/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B720672ec-b12d-449a-a64e-aff96caf2bc6%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1748489230657&web=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F01%20Project%20Vision%20and%20Goals%2FBattery%20SOH%20optimization%20using%20AI%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/EelkLtofYyZEnGgFh1KfgAwB_EnlBmdawb9zpGnlW_OIwg?e=bC1dXx",
           demoVideoLink:
@@ -261,7 +264,7 @@ const CategoriesPage = () => {
           icon: LayoutDashboard,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EenilGjVQ6pBqyAkt0Ix-AkB1-Cdo5amWg96jBGTnhsQow?e=m6vw6s",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE%2FCREATIVE%5FDigiVAVE%5FTool%20Pitch%20Desk%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE&p=true&ga=1&LOF=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/EXWljlMmT5ZCslNKz62FT1gBwx_-XS3eV0kgLZoJI2ysEg?e=vGxTZA",
           demoVideoLink:
@@ -274,7 +277,7 @@ const CategoriesPage = () => {
           icon: Users,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/ET0ntQGALPRBi8kv6hP49ogBalyJ7Dx4PFi4oCTcgacVjQ?e=2IOx3E",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2FFSM%20Pitch%20Desk%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM&p=true&ga=1&LOF=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/ESYhUDU1zbZCtLZRKujIXTsB4ophhk-bFxSURiVGN22n8w?e=2ipNfd",
           demoVideoLink:
@@ -287,7 +290,7 @@ const CategoriesPage = () => {
           icon: FileSearch,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EY1_xQA02vVImCLeQsl_ehwBTJn_ywC5rUDhtXmzUlRnJg?e=r0qWYV",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F09%20Meetings%20and%20Misc%2FSymbol%20Detection%20PID%20%2D%20Presentation%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F09%20Meetings%20and%20Misc&p=true&ga=1&LOF=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EYPSaqoOGBhLsFJ2TmPzB_sBsWfxB2JaE8zO7u4YxRR4Ng?e=5xpWVG",
           demoVideoLink:
@@ -300,9 +303,9 @@ const CategoriesPage = () => {
           icon: Route,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7B18501E7C-9A1C-4516-A1AB-C0C01B96F20B%7D&file=RouteOptimization.pptx&action=edit&mobileredirect=true",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals%2FRouteOptimization%5Fv1%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
           documentationLink:
-            "https://globalcsg.sharepoint.com/:w:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7BED4954E2-A365-4CDC-8780-F370716D5056%7D&file=Technical_Design_Document_Template.docx&action=default&mobileredirect=true",
+            "https://globalcsg.sharepoint.com/:w:/r/sites/DigitalTechnologies-All/_layouts/15/Doc.aspx?sourcedoc=%7B713646FA-984B-42BE-A75A-D1F301AF2198%7D&file=Route_Optimization_HLD_Document.docx&action=default&mobileredirect=true",
           demoVideoLink:
             "https://globalcsg-my.sharepoint.com/personal/renuka_gaddam_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Frenuka%5Fgaddam%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FScreen%20Recording%202025%2D05%2D29%20192527%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75af0642%2D6f5e%2D47cd%2D9f03%2Db59070dd9f54",
         },
@@ -318,7 +321,7 @@ const CategoriesPage = () => {
           icon: ClipboardList,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EdWitrvPTL1FlYWDV0D3IN0BJhIHL_JAcw45stZpYea09g?e=4bxOz9",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRBP%20Connect%2FHRBP%20Connect%20Pitch%20desk%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRBP%20Connect&p=true&ga=1&LOF=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/:w:/s/DigitalTechnologies-All/EYs2Vzo6uvpEn5D3NanI4x0BLq5EIM2TiOR68ElXcAz6ig?e=g6iSHr",
           demoVideoLink:
@@ -340,9 +343,11 @@ const CategoriesPage = () => {
             "Developed an interactive Power BI dashboard suite for HR analytics, covering attendance, background checks, salaries, and headcount trends using secure demo data to support data-driven workforce decisions.",
           icon: LineChart,
           iconColor: "text-blue-500",
-          pitchDeckLink: "https://example.com/pitch-deck",
-          documentationLink: "https://example.com/docs",
-          demoVideoLink: "https://example.com/demo-video",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/:p:/s/DigitalTechnologies-All/EbeODMwKRwxGgWPR2hK7KlgB2fM0dmMKIlTF76oYOQdhPg?e=eiuJH2",
+          documentationLink: "NA",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EUM3qWgpxL5ClpSN1lVebmkB0BuxSJKIIA0HEZYGjIPjRg?e=19n0d3",
         },
       ],
     },
