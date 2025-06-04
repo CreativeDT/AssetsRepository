@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import CategoriesPage from "../../Components/Categories";
-// import ContactUs from '../ContactUs/ContactUs'
 import LandingPage from "./LandingPage";
 import Footer from "./Footer/Footer";
 import FeaturedSection from "../../Components/FeaturedSection";
@@ -21,10 +20,6 @@ const LandingScreen = () => {
       <footer className="fixed bottom-0 left-0 w-full z-50">
         <Footer />
       </footer>
-
-      {/* <div id="contact-us-section">
-        <ContactUs />
-      </div> */}
     </div>
   );
 };
