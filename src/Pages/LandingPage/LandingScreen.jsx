@@ -9,9 +9,7 @@ const LandingScreen = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow pt-14 pb-24">
-        {" "}
-        {/* Add bottom padding for footer */}
+      <main className="flex-grow pt-14 pb-24 space-y-1">
         <LandingPage />
         <FeaturedSection />
         <CategoriesPage />
