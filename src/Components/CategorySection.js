@@ -1,6 +1,6 @@
-import CategoryItem from './CategoryItem';
+import CategoryItem from "./CategoryItem";
 
-const CategorySection = ({ items, categoryName ,openVideoModal}) => {
+const CategorySection = ({ items, categoryName, openVideoModal }) => {
   if (!items) return <div>Loading...</div>;
 
   if (items.length === 0) {
@@ -16,9 +16,7 @@ const CategorySection = ({ items, categoryName ,openVideoModal}) => {
 
   return (
     <div className="w-full">
-      <h1 className="text-3xl font-bold text-gray-900 mb-8">
-        {categoryName}
-      </h1>
+      <h1 className="text-3xl font-bold text-gray-900 mb-8">{categoryName}</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
         {items.map((item, index) => (
           <CategoryItem
@@ -32,8 +30,6 @@ const CategorySection = ({ items, categoryName ,openVideoModal}) => {
             documentationLink={item.documentationLink}
             demoVideoLink={item.demoVideoLink}
             iconColor={item.iconColor}
-          
-            // openVideoModal={openVideoModal}
           />
         ))}
       </div>
