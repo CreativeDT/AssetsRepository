@@ -15,9 +15,7 @@ const CategoryItem = ({
   demoVideoLink,
 }) => {
   const isHRSSMobility = 
-  title === "HRSS Mobility" || 
-  title === "Automation Script Generator" || 
-  title === "Test Case Generator";
+  title === "HRSS Mobility"
 
   const [isHovered, setIsHovered] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
