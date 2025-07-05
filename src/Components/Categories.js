@@ -150,9 +150,12 @@ const CategoriesPage = () => {
             "Automatically convert plain-text requirements or user stories into accurate test cases and BDD scenarios using LLMs with RAG. Supports both manual and automated testing, with continuous improvement via domain-specific context.",
           icon: SquarePen,
           iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
+          pitchDeckLink:
+            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          documentationLink:
+            "https://globalcsg-my.sharepoint.com/personal/melroy_castalino_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          demoVideoLink:
+            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2ba53c76%2Db267%2D437a%2D8c0e%2D89dcf79de43c",
         },
       ],
     },
@@ -345,9 +348,12 @@ const CategoriesPage = () => {
             "Automatically convert plain-text requirements or user stories into accurate test cases and BDD scenarios using LLMs with RAG. Supports both manual and automated testing, with continuous improvement via domain-specific context.",
           icon: SquarePen,
           iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
+          pitchDeckLink:
+            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          documentationLink:
+            "https://globalcsg-my.sharepoint.com/personal/melroy_castalino_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          demoVideoLink:
+            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2ba53c76%2Db267%2D437a%2D8c0e%2D89dcf79de43c",
         },
       ],
     },
