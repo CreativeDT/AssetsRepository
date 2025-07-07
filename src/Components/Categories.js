@@ -8,7 +8,6 @@ import {
   Route,
   BatteryCharging,
   FileSearch,
-  FileText,
   LineChart,
   LayoutDashboard,
   School,
@@ -17,9 +16,9 @@ import {
   Users,
   ClipboardList,
   Workflow,
-  Settings,
   Truck,
-  ScanLine,
+  TerminalSquare,
+  SquarePen,
 } from "lucide-react";
 
 const CategoriesPage = () => {
@@ -43,6 +42,16 @@ const CategoriesPage = () => {
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAI%20Powered%20Real%20Time%20ETA%20Prediction%2F04%20Design%2F03%20HLD%20and%20LLD%2FReal%5Ftime%5FETA%5FPrediction%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAI%20Powered%20Real%20Time%20ETA%20Prediction%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
             "https://globalcsg-my.sharepoint.com/:v:/g/personal/pawan_sharma_global-csg_com/EXnjBpl6eDRCi2g6sAvv60EB71948410muWjIBmgVDrC1A",
+        },
+        {
+          title: "Automation Script Generator",
+          description:
+            "Capture user interactions using test script recorder and transform them into structured BDD scenarios, step definitions, and POMs using AI. Instantly integrates with automation frameworks for efficient test execution and reporting.",
+          icon: TerminalSquare,
+          iconColor: "text-blue-500",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
         },
         {
           title: "Battery Life Optimization",
@@ -134,6 +143,19 @@ const CategoriesPage = () => {
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
             "https://globalcsg-my.sharepoint.com/personal/renuka_gaddam_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Frenuka%5Fgaddam%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FScreen%20Recording%202025%2D05%2D29%20192527%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75af0642%2D6f5e%2D47cd%2D9f03%2Db59070dd9f54",
+        },
+        {
+          title: "Test Case Generator",
+          description:
+            "Automatically convert plain-text requirements or user stories into accurate test cases and BDD scenarios using LLMs with RAG. Supports both manual and automated testing, with continuous improvement via domain-specific context.",
+          icon: SquarePen,
+          iconColor: "text-blue-500",
+          pitchDeckLink:
+            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          documentationLink:
+            "https://globalcsg-my.sharepoint.com/personal/melroy_castalino_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          demoVideoLink:
+            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2ba53c76%2Db267%2D437a%2D8c0e%2D89dcf79de43c",
         },
       ],
     },
@@ -233,6 +255,16 @@ const CategoriesPage = () => {
       name: "Process Automation & Optimization",
       items: [
         {
+          title: "Automation Script Generator",
+          description:
+            "Capture user interactions using test script recorder and transform them into structured BDD scenarios, step definitions, and POMs using AI. Instantly integrates with automation frameworks for efficient test execution and reporting.",
+          icon: TerminalSquare,
+          iconColor: "text-blue-500",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
+        },
+        {
           title: "Battery Life Optimization",
           description:
             "The Battery Life Optimization project aims to forecast the State of Health (SoH) of electric vehicle batteries using advanced machine learning techniques. The goal is to enable predictive maintenance, optimize route planning, and enhance battery performance through data-driven insights. A RESTful API was developed to serve predictions and visual analytics to a frontend dashboard. ",
@@ -309,6 +341,19 @@ const CategoriesPage = () => {
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
             "https://globalcsg-my.sharepoint.com/personal/renuka_gaddam_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Frenuka%5Fgaddam%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FScreen%20Recording%202025%2D05%2D29%20192527%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75af0642%2D6f5e%2D47cd%2D9f03%2Db59070dd9f54",
+        },
+        {
+          title: "Test Case Generator",
+          description:
+            "Automatically convert plain-text requirements or user stories into accurate test cases and BDD scenarios using LLMs with RAG. Supports both manual and automated testing, with continuous improvement via domain-specific context.",
+          icon: SquarePen,
+          iconColor: "text-blue-500",
+          pitchDeckLink:
+            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          documentationLink:
+            "https://globalcsg-my.sharepoint.com/personal/melroy_castalino_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          demoVideoLink:
+            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2ba53c76%2Db267%2D437a%2D8c0e%2D89dcf79de43c",
         },
       ],
     },
