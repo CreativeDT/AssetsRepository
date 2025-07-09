@@ -49,9 +49,12 @@ const CategoriesPage = () => {
             "Capture user interactions using test script recorder and transform them into structured BDD scenarios, step definitions, and POMs using AI. Instantly integrates with automation frameworks for efficient test execution and reporting.",
           icon: TerminalSquare,
           iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
+          pitchDeckLink:
+            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestAutomationScriptGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          documentationLink:
+            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FTestScriptGenerator%2DSoftware%20Architecture%20Design%28HLD%29%201%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          demoVideoLink:
+            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGen%20AI%20Driven%20Test%20Script%20Generator%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E32d27c0a%2D9be2%2D4363%2Dad08%2D72ffad993770&isDarkMode=true",
         },
         {
           title: "Battery Life Optimization",
@@ -260,9 +263,12 @@ const CategoriesPage = () => {
             "Capture user interactions using test script recorder and transform them into structured BDD scenarios, step definitions, and POMs using AI. Instantly integrates with automation frameworks for efficient test execution and reporting.",
           icon: TerminalSquare,
           iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
+          pitchDeckLink:
+            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestAutomationScriptGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          documentationLink:
+            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FTestScriptGenerator%2DSoftware%20Architecture%20Design%28HLD%29%201%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+          demoVideoLink:
+            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGen%20AI%20Driven%20Test%20Script%20Generator%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E32d27c0a%2D9be2%2D4363%2Dad08%2D72ffad993770&isDarkMode=true",
         },
         {
           title: "Battery Life Optimization",
