@@ -50,11 +50,11 @@ const CategoriesPage = () => {
           icon: TerminalSquare,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestAutomationScriptGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EekQIMNY9mFDjr67xogXfxsBPV3N0VYQNzoXl3mKJmtZPQ?e=QzUGwI",
           documentationLink:
-            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FTestScriptGenerator%2DSoftware%20Architecture%20Design%28HLD%29%201%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EawHsxbQCKFDpIk6df7-KdIB7mDFgocWh7jrHGljYhUcqA?e=BkTBKn",
           demoVideoLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F10%20Recording%2FGen%5FAI%5FDriven%5FTest%5FScript%5FGenerator%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1c7fd8d6%2D9f8e%2D4303%2D9544%2D3396dd8c854b",
+            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/ESLrjuIbsXRGoP4nmbSkcAsBNRYGzPNRjv0lYNakLK66gQ?e=27Ppo1",
         },
         {
           title: "Battery Life Optimization",
@@ -154,11 +154,11 @@ const CategoriesPage = () => {
           icon: SquarePen,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/Ed5dOG61MmlOqWbsUjbnKx8BPxT55Ycsr9ff3iyYqzrjvA?e=450daq",
           documentationLink:
-            "https://globalcsg-my.sharepoint.com/personal/melroy_castalino_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EdBNejjOiN9Oo4HwAJWBDUEBe4VpDojIwM4s33ftnjAHqw?e=xMmMkl",
           demoVideoLink:
-            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2ba53c76%2Db267%2D437a%2D8c0e%2D89dcf79de43c",
+            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EZrkGwNiUEZDonoNiLP9JkwBZRUqNx2k1welSPg3oLeNTA?e=zzH9Jc",
         },
       ],
     },
@@ -264,11 +264,11 @@ const CategoriesPage = () => {
           icon: TerminalSquare,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestAutomationScriptGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EekQIMNY9mFDjr67xogXfxsBPV3N0VYQNzoXl3mKJmtZPQ?e=QzUGwI",
           documentationLink:
-            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FTestScriptGenerator%2DSoftware%20Architecture%20Design%28HLD%29%201%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EawHsxbQCKFDpIk6df7-KdIB7mDFgocWh7jrHGljYhUcqA?e=BkTBKn",
           demoVideoLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F10%20Recording%2FGen%5FAI%5FDriven%5FTest%5FScript%5FGenerator%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1c7fd8d6%2D9f8e%2D4303%2D9544%2D3396dd8c854b",
+            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/ESLrjuIbsXRGoP4nmbSkcAsBNRYGzPNRjv0lYNakLK66gQ?e=27Ppo1",
         },
         {
           title: "Battery Life Optimization",
@@ -355,11 +355,11 @@ const CategoriesPage = () => {
           icon: SquarePen,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/Ed5dOG61MmlOqWbsUjbnKx8BPxT55Ycsr9ff3iyYqzrjvA?e=450daq",
           documentationLink:
-            "https://globalcsg-my.sharepoint.com/personal/melroy_castalino_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EdBNejjOiN9Oo4HwAJWBDUEBe4VpDojIwM4s33ftnjAHqw?e=xMmMkl",
           demoVideoLink:
-            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2ba53c76%2Db267%2D437a%2D8c0e%2D89dcf79de43c",
+            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EZrkGwNiUEZDonoNiLP9JkwBZRUqNx2k1welSPg3oLeNTA?e=zzH9Jc",
         },
       ],
     },
