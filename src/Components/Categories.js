@@ -54,7 +54,7 @@ const CategoriesPage = () => {
           documentationLink:
             "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FTestScriptGenerator%2DSoftware%20Architecture%20Design%28HLD%29%201%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
           demoVideoLink:
-            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGen%20AI%20Driven%20Test%20Script%20Generator%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E32d27c0a%2D9be2%2D4363%2Dad08%2D72ffad993770&isDarkMode=true",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F10%20Recording%2FGen%5FAI%5FDriven%5FTest%5FScript%5FGenerator%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1c7fd8d6%2D9f8e%2D4303%2D9544%2D3396dd8c854b",
         },
         {
           title: "Battery Life Optimization",
@@ -268,7 +268,7 @@ const CategoriesPage = () => {
           documentationLink:
             "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FTestScriptGenerator%2DSoftware%20Architecture%20Design%28HLD%29%201%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
           demoVideoLink:
-            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGen%20AI%20Driven%20Test%20Script%20Generator%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E32d27c0a%2D9be2%2D4363%2Dad08%2D72ffad993770&isDarkMode=true",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F10%20Recording%2FGen%5FAI%5FDriven%5FTest%5FScript%5FGenerator%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1c7fd8d6%2D9f8e%2D4303%2D9544%2D3396dd8c854b",
         },
         {
           title: "Battery Life Optimization",
