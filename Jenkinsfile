@@ -36,8 +36,8 @@ pipeline {
                 ]){
                    
 		sh 'docker login dtacrstore.azurecr.io -u $ACR_USERNAME -p $ACR_PASSWORD'
-		docker pull dtacrstore.azurecr.io/asset-repo:latest
-		docker tag dtacrstore.azurecr.io/asset-repo:latest dtacrstore.azurecr.io/asset-repo:$BUILD_NUMBER
+		sh 'docker pull dtacrstore.azurecr.io/asset-repo:latest'
+		sh 'docker tag dtacrstore.azurecr.io/asset-repo:latest dtacrstore.azurecr.io/asset-repo:$BUILD_NUMBER'
 		sh 'docker push dtacrstore.azurecr.io/asset-repo:$BUILD_NUMBER'
 	}
 
