@@ -60,7 +60,7 @@ pipeline {
                 }
             }
         }
-	stage('Docker Compose Build & Up') {
+	stage('Docker Image Push to ACR') {
             steps {
                 dir("${FULL_PATH}") {
 		sh 'docker tag assetsrepository-frontend:latest dtacrstore.azurecr.io/asset-repo:latest'
