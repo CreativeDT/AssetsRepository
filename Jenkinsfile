@@ -1,6 +1,4 @@
 pipeline {
-    agent { label 'ai-dev-gpu-new' }
-
     environment {
         REPO_URL = 'https://github.com/CreativeDT/AssetsRepository.git'
         WORK_DIR = '/data/ai_projects/assetsRepo'
