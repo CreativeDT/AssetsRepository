@@ -1,9 +1,9 @@
 pipeline {
-  
     environment {
         REPO_URL = 'https://github.com/CreativeDT/AssetsRepository.git'
         WORK_DIR = '/data/ai_projects/assetsRepo'
         REPO_NAME = 'AssetsRepository'
+        REPO_DIR = 'docker' // Define REPO_DIR if it was missing
         FULL_PATH = "${WORK_DIR}/${REPO_NAME}/${REPO_DIR}"
     }
 
@@ -27,14 +27,14 @@ pipeline {
         stage('Stop & Remove Docker Containers') {
             steps {
                 dir("${FULL_PATH}") {
-                    sh 'docker compose down'
+                    sh 'docker compose down || true'
                 }
             }
         }
 
         stage('Remove Docker Images') {
             steps {
-                sh 'docker image prune -af'
+                sh 'docker image prune -af || true'
             }
         }
 
