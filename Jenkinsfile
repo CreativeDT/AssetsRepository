@@ -34,10 +34,12 @@ pipeline {
                     string(credentialsId: 'ACR_USER', variable: 'ACR_USERNAME'),
                     string(credentialsId: 'ACR_PASS', variable: 'ACR_PASSWORD')
                 ]){
-                    sh 'docker tag assetsrepository-frontend:latest dtacrstore.azurecr.io/asset-repo:$BUILD_NUMBER'
-					sh 'docker login dtacrstore.azurecr.io -u $ACR_USERNAME -p $ACR_PASSWORD'
-					sh 'docker push dtacrstore.azurecr.io/asset-repo:$BUILD_NUMBER'
-			}
+                   
+		sh 'docker login dtacrstore.azurecr.io -u $ACR_USERNAME -p $ACR_PASSWORD'
+		docker pull dtacrstore.azurecr.io/asset-repo:latest
+		docker tag dtacrstore.azurecr.io/asset-repo:latest dtacrstore.azurecr.io/asset-repo:$BUILD_NUMBER
+		sh 'docker push dtacrstore.azurecr.io/asset-repo:$BUILD_NUMBER'
+	}
 
                 }
             }
@@ -74,7 +76,6 @@ pipeline {
                     string(credentialsId: 'ACR_PASS', variable: 'ACR_PASSWORD')
                 ]){
 		sh 'docker tag assetsrepository-frontend:latest dtacrstore.azurecr.io/asset-repo:latest'
-		sh 'docker login dtacrstore.azurecr.io -u $ACR_USERNAME -p $ACR_PASSWORD'
 		sh 'docker push dtacrstore.azurecr.io/asset-repo:latest'
 		}			
                 }
