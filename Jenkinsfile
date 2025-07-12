@@ -13,7 +13,11 @@ pipeline {
                 script {
                     if (fileExists("${WORK_DIR}/${REPO_NAME}")) {
                         dir("${WORK_DIR}/${REPO_NAME}") {
-                            sh 'git pull origin prod'
+                            sh '''
+                                  git fetch origin prod
+                                  git reset --hard origin/prod
+                                '''
+
                         }
                     } else {
                         dir("${WORK_DIR}") {
