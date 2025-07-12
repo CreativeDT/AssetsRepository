@@ -2,7 +2,8 @@
 FROM node:18.19.0 AS build
 # Set working directory
 WORKDIR /app
-ENV BUILD_TIME=${BUILD_TIME}
+ARG BUILD_ID
+ENV BUILD_ID=$BUILD_ID
 
 # Copy package files and install dependencies
 COPY package.json package-lock.json ./
