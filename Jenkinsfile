@@ -31,14 +31,15 @@ pipeline {
         stage('Stop & Remove Docker Containers') {
             steps {
                 dir("${FULL_PATH}") {
-                    sh 'docker compose down'
+                    sh 'docker-compose down'
+
                 }
             }
         }
 
         stage('Remove Docker Images') {
             steps {
-                sh 'docker image prune -af'
+                sh 'docker-compose image prune -af'
             }
         }
 
