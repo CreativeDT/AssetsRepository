@@ -6,7 +6,6 @@ pipeline {
         REPO_NAME = 'AssetsRepository'
         FULL_PATH = "${WORK_DIR}/${REPO_NAME}/${REPO_DIR}"
     }
-
     stages {
         stage('Clone or Pull Repo') {
             steps {
