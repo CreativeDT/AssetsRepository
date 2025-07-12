@@ -30,9 +30,14 @@ pipeline {
 		 stage('Backup Docker Images and creating Tags') {
             steps {
                 dir("${FULL_PATH}") {
+			withCredentials([
+                    string(credentialsId: 'ACR_USER', variable: 'ACR_USERNAME'),
+                    string(credentialsId: 'ACR_PASS', variable: 'ACR_PASSWORD')
+                ]){
                     sh 'docker tag assetsrepository-frontend:latest dtacrstore.azurecr.io/asset-repo:$BUILD_NUMBER'
-					sh 'docker login dtacrstore.azurecr.io -u dtacrstore -p NZ5zLwD+lZUXj8xdsaEjZc0HmnxM97IPPKnCYOt6dC+ACRAShIfw'
+					sh 'docker login dtacrstore.azurecr.io -u $ACR_USERNAME -p $ACR_PASSWORD'
 					sh 'docker push dtacrstore.azurecr.io/asset-repo:$BUILD_NUMBER'
+			}
 
                 }
             }
@@ -64,10 +69,14 @@ pipeline {
 	stage('Docker Image Push to ACR') {
             steps {
                 dir("${FULL_PATH}") {
+		withCredentials([
+                    string(credentialsId: 'ACR_USER', variable: 'ACR_USERNAME'),
+                    string(credentialsId: 'ACR_PASS', variable: 'ACR_PASSWORD')
+                ]){
 		sh 'docker tag assetsrepository-frontend:latest dtacrstore.azurecr.io/asset-repo:latest'
-		sh 'docker login dtacrstore.azurecr.io -u dtacrstore -p NZ5zLwD+lZUXj8xdsaEjZc0HmnxM97IPPKnCYOt6dC+ACRAShIfw'
+		sh 'docker login dtacrstore.azurecr.io -u $ACR_USERNAME -p $ACR_PASSWORD'
 		sh 'docker push dtacrstore.azurecr.io/asset-repo:latest'
-					
+		}			
                 }
             }
         }
