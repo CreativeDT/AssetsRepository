@@ -39,14 +39,14 @@ pipeline {
 
         stage('Remove Docker Images') {
             steps {
-                sh 'docker-compose image prune -af'
+                sh 'docker image prune -af'
             }
         }
 
         stage('Docker Compose Build & Up') {
             steps {
                 dir("${FULL_PATH}") {
-                    sh 'docker compose up -d --build'
+                    sh 'docker-compose up -d --build'
                 }
             }
         }
