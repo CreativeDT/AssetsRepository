@@ -4,7 +4,6 @@ pipeline {
         REPO_URL = 'https://github.com/CreativeDT/AssetsRepository.git'
         WORK_DIR = '/data/ai_projects/assetsRepo'
         REPO_NAME = 'AssetsRepository'
-        REPO_DIR = 'docker' // Define REPO_DIR if it was missing
         FULL_PATH = "${WORK_DIR}/${REPO_NAME}/${REPO_DIR}"
     }
 
