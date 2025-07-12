@@ -1,7 +1,9 @@
 # Stage 1: Build Angular Application
 FROM node:18.19.0 AS build
+
 # Set working directory
 WORKDIR /app
+
 ARG BUILD_ID
 ENV BUILD_ID=$BUILD_ID
 
