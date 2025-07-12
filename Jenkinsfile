@@ -57,9 +57,15 @@ pipeline {
             steps {
                 dir("${FULL_PATH}") {
                     sh 'docker-compose up -d --build'
-					sh 'docker tag assetsrepository-frontend:latest dtacrstore.azurecr.io/asset-repo:latest'
-					sh 'docker login dtacrstore.azurecr.io -u dtacrstore -p NZ5zLwD+lZUXj8xdsaEjZc0HmnxM97IPPKnCYOt6dC+ACRAShIfw'
-					sh 'docker push dtacrstore.azurecr.io/asset-repo:latest'
+                }
+            }
+        }
+	stage('Docker Compose Build & Up') {
+            steps {
+                dir("${FULL_PATH}") {
+		sh 'docker tag assetsrepository-frontend:latest dtacrstore.azurecr.io/asset-repo:latest'
+		sh 'docker login dtacrstore.azurecr.io -u dtacrstore -p NZ5zLwD+lZUXj8xdsaEjZc0HmnxM97IPPKnCYOt6dC+ACRAShIfw'
+		sh 'docker push dtacrstore.azurecr.io/asset-repo:latest'
 					
                 }
             }
