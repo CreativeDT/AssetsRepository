@@ -1,9 +1,7 @@
 # Stage 1: Build Angular Application
 FROM node:18.19.0 AS build
-
 # Set working directory
 WORKDIR /app
-
 # Copy package files and install dependencies
 COPY package.json package-lock.json ./
 RUN npm install --force
