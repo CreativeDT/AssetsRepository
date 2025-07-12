@@ -57,7 +57,7 @@ pipeline {
             steps {
                 dir("${FULL_PATH}") {
 		  sh 'docker build --build-arg BUILD_ID=$BUILD_NUMBER -t assetsrepository-frontend -f ../Dockerfile ../'
-                   # sh 'docker-compose up -d'
+                  sh 'docker-compose up -d'
                 }
             }
         }
