@@ -33,7 +33,7 @@ const CategoriesPage = () => {
         {
           title: "AI Powered Real Time ETA Prediction",
           description:
-            "Real-time Congestion, Unexpected Road Diversions, And Vehicle-specific Constraints, Such As Heavy Cargo, Create Unpredictability In Travel Time, Affecting Estimated Arrival Times (ETA). Additionally, Variations In Driver Behavior, Including Speed Fluctuations And Stoppages, Further Impact Delivery Timelines.Implement Machine Learning (ML) Models Trained On Historical Trip Data Continuously Refine Estimated Time Of Arrival (ETA) Using Real-time Updates",
+            "Real-time Congestion, Unexpected Road Diversions And Vehicle-specific Constraints, Such As Heavy Cargo, Create Unpredictability In Travel Time, Affecting Estimated Arrival Times (ETA). Additionally, Variations In Driver Behavior, Including Speed Fluctuations And Stoppages, Further Impact Delivery Timelines.Implement Machine Learning (ML) Models Trained On Historical Trip Data Continuously Refine Estimated Time Of Arrival (ETA) Using Real-time Updates",
           icon: Plane,
           iconColor: "text-blue-500",
           pitchDeckLink:
