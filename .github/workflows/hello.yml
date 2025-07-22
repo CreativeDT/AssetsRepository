@@ -1,18 +1,72 @@
-name: Hello World Test
+name: CI/CD Pipeline
 
 on:
   push:
     branches:
-      - prod  # Trigger only on commits to the 'prod' branch
-  workflow_dispatch:  # Allow manual trigger
+      - prod
+
+env:
+  REPO_URL: https://github.com/CreativeDT/AssetsRepository.git
+  WORK_DIR: /data/ai_projects/assetsRepo
+  REPO_NAME: AssetsRepository
+  # Adjust REPO_DIR or FULL_PATH if needed; assuming WORK_DIR + REPO_NAME is enough here
+  FULL_PATH: /data/ai_projects/assetsRepo/AssetsRepository
 
 jobs:
-  test-runner:
-    runs-on: [self-hosted, dt-dev-app-vm2]  # Exact runner label
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      BUILD_NUMBER: ${{ github.run_number }}
+
     steps:
-      - name: Checkout code
+      - name: Checkout this repository (optional, if needed)
         uses: actions/checkout@v3
 
-      - name: Print Hello World
-        run: echo "✅ Hello from dt-dev-app-vm2!"
+      - name: Set up work directory
+        run: mkdir -p ${{ env.WORK_DIR }}
 
+      - name: Clone or Pull AssetsRepository
+        run: |
+          if [ -d "${{ env.WORK_DIR }}/${{ env.REPO_NAME }}" ]; then
+            cd ${{ env.WORK_DIR }}/${{ env.REPO_NAME }}
+            git fetch origin prod
+            git reset --hard origin/prod
+          else
+            cd ${{ env.WORK_DIR }}
+            git clone ${{ env.REPO_URL }}
+            cd ${{ env.REPO_NAME }}
+            git checkout prod
+          fi
+
+      - name: Log in to Azure Container Registry
+        uses: azure/docker-login@v1
+        with:
+          login-server: dtacrstore.azurecr.io
+          username: ${{ secrets.ACR_USER }}
+          password: ${{ secrets.ACR_PASS }}
+
+      - name: Backup Docker Images and create Tags
+        run: |
+          docker pull dtacrstore.azurecr.io/asset-repo:latest
+          docker tag dtacrstore.azurecr.io/asset-repo:latest dtacrstore.azurecr.io/asset-repo:${{ env.BUILD_NUMBER }}
+          docker push dtacrstore.azurecr.io/asset-repo:${{ env.BUILD_NUMBER }}
+
+      - name: Stop and Remove Docker Containers
+        working-directory: ${{ env.FULL_PATH }}
+        run: docker-compose down
+
+      - name: Remove Docker Images
+        run: docker image prune -af
+
+      - name: Docker Compose Build & Up
+        working-directory: ${{ env.FULL_PATH }}
+        run: |
+          # Build the Docker image with build arg BUILD_ID
+          docker build --build-arg BUILD_ID=${{ env.BUILD_NUMBER }} -t assetsrepository-frontend -f ../Dockerfile ../
+          docker-compose up -d
+
+      - name: Docker Image Push to ACR
+        working-directory: ${{ env.FULL_PATH }}
+        run: |
+          docker tag assetsrepository-frontend:latest dtacrstore.azurecr.io/asset-repo:latest
+          docker push dtacrstore.azurecr.io/asset-repo:latest
