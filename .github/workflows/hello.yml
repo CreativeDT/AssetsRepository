@@ -9,7 +9,6 @@ env:
   REPO_URL: https://github.com/CreativeDT/AssetsRepository.git
   WORK_DIR: /data/ai_projects/assetsRepo
   REPO_NAME: AssetsRepository
-  # Adjust REPO_DIR or FULL_PATH if needed; assuming WORK_DIR + REPO_NAME is enough here
   FULL_PATH: /data/ai_projects/assetsRepo/AssetsRepository
 
 jobs:
