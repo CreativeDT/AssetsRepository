@@ -23,8 +23,10 @@ RUN npm run build
 # Stage 2: Serve with nginx
 FROM nginx:latest
 
+# Copy custom NGINX configuration -----------> Production Build
+COPY prod_nginx.conf /etc/nginx/nginx.conf
 # Copy custom NGINX configuration
-COPY nginx.conf /etc/nginx/nginx.conf
+#COPY nginx.conf /etc/nginx/nginx.conf
 
 # Copy SSL certificates
 COPY ssl/global-csg.com.pem /etc/ssl/global-csg.com.pem
