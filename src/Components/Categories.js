@@ -63,11 +63,11 @@ const CategoriesPage = () => {
           icon: TerminalSquare,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EekQIMNY9mFDjr67xogXfxsBPV3N0VYQNzoXl3mKJmtZPQ?e=QzUGwI",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EbjmjSa5YfROuXy-r0-AMEEBzjqTjTsZGbB7rLcl7Tpr8A?e=1kmk4G",
           documentationLink:
-            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EawHsxbQCKFDpIk6df7-KdIB7mDFgocWh7jrHGljYhUcqA?e=BkTBKn",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EULWXqnIW2lLhnURXmD-XGwBllDcDMVM14trGKj0BtMImQ?e=4I0g3K",
           demoVideoLink:
-            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/ESLrjuIbsXRGoP4nmbSkcAsBNRYGzPNRjv0lYNakLK66gQ?e=27Ppo1",
+            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EQoAzQvfpwBBoIBBXEoxaz4BfLXtQRwPYaH1rtHSeZ-oZA?e=2tFKZT",
         },
         {
           title: "Battery Life Optimization",
@@ -277,11 +277,11 @@ const CategoriesPage = () => {
           icon: TerminalSquare,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EekQIMNY9mFDjr67xogXfxsBPV3N0VYQNzoXl3mKJmtZPQ?e=QzUGwI",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EbjmjSa5YfROuXy-r0-AMEEBzjqTjTsZGbB7rLcl7Tpr8A?e=1kmk4G",
           documentationLink:
-            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EawHsxbQCKFDpIk6df7-KdIB7mDFgocWh7jrHGljYhUcqA?e=BkTBKn",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EULWXqnIW2lLhnURXmD-XGwBllDcDMVM14trGKj0BtMImQ?e=4I0g3K",
           demoVideoLink:
-            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/ESLrjuIbsXRGoP4nmbSkcAsBNRYGzPNRjv0lYNakLK66gQ?e=27Ppo1",
+            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EQoAzQvfpwBBoIBBXEoxaz4BfLXtQRwPYaH1rtHSeZ-oZA?e=2tFKZT",
         },
         {
           title: "Battery Life Optimization",
