@@ -1,7 +1,7 @@
 import React from "react";
 import CategoryItem from "./CategoryItem";
 import { Brain, Bot, Map, FileSearch, Route, School } from "lucide-react";
-import backgroundImage from "../Assets/banner-abstract.jpg";
+import backgroundImage from "../Assets/banner-abstract.jpg"
 const FeaturedSection = () => {
   const features = [
     {
@@ -15,7 +15,7 @@ const FeaturedSection = () => {
       documentationLink:
         "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
       demoVideoLink:
-        "https://globalcsg-my.sharepoint.com/personal/renuka_gaddam_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Frenuka%5Fgaddam%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FScreen%20Recording%202025%2D05%2D29%20192527%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75af0642%2D6f5e%2D47cd%2D9f03%2Db59070dd9f54",
+        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2FLatest%20Documents%2FRoute%20Optimization%20Instruction%20Video%20%2D%20Short%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efbf36fb7%2D23dd%2D433d%2Da8af%2D88e6f61869c2&isSPOFile=1&xsdata=MDV8MDJ8fDIyNTQ3YzI3MjU5NTQwYjNlMWNlMDhkZGQzZWYzODQyfGE5YzUwYzZjMmVjYzQ2NTM5OWIyNTgwMjRhZjkxODY2fDB8MHw2Mzg4OTk3NDY1NTEwMzAyMjJ8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDJOb1lYUnpMekU1T2pVMU1USXhaVFUzTFRWaVpUZ3ROR0kyT1MwNE5qWTVMVEJrWWpVeE9EQTFZelF5TjE5ak0ySTROR0l5WVMxaVpUSTVMVFJqWW1NdE9UYzVaaTFrT1RsbVl6VXpNemczWW1aQWRXNXhMbWRpYkM1emNHRmpaWE12YldWemMyRm5aWE12TVRjMU5ETTNOemcxTXpRMk1RPT18MzA3YjI2ZmEyMDliNGRhMGUxY2UwOGRkZDNlZjM4NDJ8ZjQ2MThhMGFkODYwNGQ5ZGI0Njc2YjhiYWI2YjMyMjU%3D&sdata=UTZSYkY4TlVpM0tZRER2TWdza0cyV1h5UWhZZkJaak9XWlY3ek5LV1I3cz0%3D&ovuser=a9c50c6c%2D2ecc%2D4653%2D99b2%2D58024af91866%2Cadhiyamaan%2Emaharajan%40global%2Dcsg%2Ecom",
     },
     {
       title: "LMS",

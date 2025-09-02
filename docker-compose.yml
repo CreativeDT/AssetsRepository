@@ -7,8 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: asset-repo
     ports:
-      - "9000:9000"
+      - "443:443"
     volumes:
       - /data/docker_volumes/asset-repo/ssl:/etc/ssl
     restart: unless-stopped
-
