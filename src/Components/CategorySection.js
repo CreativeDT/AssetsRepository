@@ -1,3 +1,5 @@
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/prop-types */
 import CategoryItem from "./CategoryItem";
 
 const CategorySection = ({ items, categoryName, openVideoModal }) => {

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile, faFileAlt, faVideo } from "@fortawesome/free-solid-svg-icons";
@@ -14,8 +15,10 @@ const CategoryItem = ({
   openVideoModal,
   demoVideoLink,
 }) => {
-  const isHRSSMobility = 
-  title === "HRSS Mobility"
+  const isHRSSMobility =
+    title === "HRSS Mobility" ||
+    title === "Multi-Agentic Framework" ||
+    title === "TFM";
 
   const [isHovered, setIsHovered] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);

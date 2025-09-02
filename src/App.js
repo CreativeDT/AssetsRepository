@@ -1,19 +1,48 @@
+//app.js
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import LoginPage from "./Pages/LoginPage"
+import { useSelector } from "react-redux";
 import CategoriesPage from "./Components/Categories";
-import ContactUs from "./Pages/ContactUs/ContactUs";
-
+import ContactUs from "./Pages/ContactUs/ContactUs"
 import LandingScreen from "./Pages/LandingPage/LandingScreen";
 
-import { Routes, Route } from "react-router-dom";
-
 function App() {
+  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
+  console.log(isAuthenticated);
   return (
-    <div>
-      <LandingScreen />
+    <Router>
       <Routes>
-        <Route path="/catogories" element={<CategoriesPage />} />
-        <Route path="/contact" element={<ContactUs />} />
+        <Route
+          path="/"
+          element={isAuthenticated ? <LandingScreen /> : <LoginPage />}
+        />
+        <Route
+          path="/landingScreen"
+          element={
+            isAuthenticated ? <LandingScreen /> : <Navigate to="/" replace />
+          }
+        />
+
+        <Route
+          path="/categories"
+          element={
+            isAuthenticated ? <CategoriesPage /> : <Navigate to="/" replace />
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            isAuthenticated ? <ContactUs /> : <Navigate to="/" replace />
+          }
+        />
       </Routes>
-    </div>
+    </Router>
   );
 }
 

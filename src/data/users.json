@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "123456"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "password": "123456"
+  },
+  {
+    "id": 3,
+    "name": "Peter Jones",
+    "email": "peter.jones@example.com",
+    "password": "123456"
+  },
+  {
+    "id": 4,
+    "name": "J Amala Lizy",
+    "email": "amala.lizy@global-csg.com",
+    "password": "123456"
+  },
+  {
+    "id": 5,
+    "name": "Eswara B",
+    "email": "eswara.bailapudi@global-csg.com",
+    "password": "123456"
+  },
+  {
+    "id": 6,
+    "name": "Srivani J",
+    "email": "j.srivani@global-csg.com",
+    "password": "123456"
+  }
+]

@@ -1,3 +1,7 @@
+
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/prop-types */
+
 import React, { useState } from "react";
 import CategorySection from "./CategorySection";
 
@@ -33,7 +37,7 @@ const CategoriesPage = () => {
         {
           title: "AI Powered Real Time ETA Prediction",
           description:
-            "Real-time Congestion, Unexpected Road Diversions, And Vehicle-specific Constraints, Such As Heavy Cargo, Create Unpredictability In Travel Time, Affecting Estimated Arrival Times (ETA). Additionally, Variations In Driver Behavior, Including Speed Fluctuations And Stoppages, Further Impact Delivery Timelines.Implement Machine Learning (ML) Models Trained On Historical Trip Data Continuously Refine Estimated Time Of Arrival (ETA) Using Real-time Updates",
+            "Real-time Congestion, Unexpected Road Diversions And Vehicle-specific Constraints, Such As Heavy Cargo, Create Unpredictability In Travel Time, Affecting Estimated Arrival Times (ETA). Additionally, Variations In Driver Behavior, Including Speed Fluctuations And Stoppages, Further Impact Delivery Timelines.Implement Machine Learning (ML) Models Trained On Historical Trip Data Continuously Refine Estimated Time Of Arrival (ETA) Using Real-time Updates",
           icon: Plane,
           iconColor: "text-blue-500",
           pitchDeckLink:
@@ -44,17 +48,30 @@ const CategoriesPage = () => {
             "https://globalcsg-my.sharepoint.com/:v:/g/personal/pawan_sharma_global-csg_com/EXnjBpl6eDRCi2g6sAvv60EB71948410muWjIBmgVDrC1A",
         },
         {
-          title: "Automation Script Generator",
+          title: "Automated Test Case Generation",
+          description:
+            "Automatically convert plain-text requirements or user stories into accurate test cases and BDD scenarios using LLMs with RAG. Supports both manual and automated testing, with continuous improvement via domain-specific context.",
+          icon: SquarePen,
+          iconColor: "text-blue-500",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F01%20Project%20Vision%20and%20Goals%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+          documentationLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD%2FGenAI%5FDriven%5FTestCase%5FGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2FRecording%2FGenAI%5FDriven%5FTestCase%5FGeneration%2DShort%5FVideo%2Emp4&ga=1&LOF=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E79d3053c%2D1ac6%2D4257%2Dab85%2D5455c46b5575",
+        },
+        {
+          title: "Automated Test Script Generation ",
           description:
             "Capture user interactions using test script recorder and transform them into structured BDD scenarios, step definitions, and POMs using AI. Instantly integrates with automation frameworks for efficient test execution and reporting.",
           icon: TerminalSquare,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestAutomationScriptGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EbjmjSa5YfROuXy-r0-AMEEBzjqTjTsZGbB7rLcl7Tpr8A?e=1kmk4G",
           documentationLink:
-            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FTestScriptGenerator%2DSoftware%20Architecture%20Design%28HLD%29%201%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EULWXqnIW2lLhnURXmD-XGwBllDcDMVM14trGKj0BtMImQ?e=4I0g3K",
           demoVideoLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F10%20Recording%2FGen%5FAI%5FDriven%5FTest%5FScript%5FGenerator%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E84659811%2D72b9%2D431d%2Dbae6%2Dba522f9bca6d",
+            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EQoAzQvfpwBBoIBBXEoxaz4BfLXtQRwPYaH1rtHSeZ-oZA?e=2tFKZT",
         },
         {
           title: "Battery Life Optimization",
@@ -145,20 +162,27 @@ const CategoriesPage = () => {
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
-            "https://globalcsg-my.sharepoint.com/personal/renuka_gaddam_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Frenuka%5Fgaddam%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FScreen%20Recording%202025%2D05%2D29%20192527%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75af0642%2D6f5e%2D47cd%2D9f03%2Db59070dd9f54",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2FLatest%20Documents%2FRoute%20Optimization%20Instruction%20Video%20%2D%20Short%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1f44116e%2D72d6%2D4b44%2Daf92%2Dbc3b9e01b95c",
         },
         {
-          title: "Test Case Generator",
+          title: "Multi-Agentic Framework",
           description:
-            "Automatically convert plain-text requirements or user stories into accurate test cases and BDD scenarios using LLMs with RAG. Supports both manual and automated testing, with continuous improvement via domain-specific context.",
-          icon: SquarePen,
+            "Creative Synergies is currently handling travel requests using Excel-based forms. This project intends to convert these forms into a web-based application to manage the end-to-end workflow of travel requests across Domestic, Business, and Work Permit categories. The goal is to streamline submission, approval, and tracking processes for employees, managers, HR, and travel teams.",
+          icon: Plane,
           iconColor: "text-blue-500",
-          pitchDeckLink:
-            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
-          documentationLink:
-            "https://globalcsg-my.sharepoint.com/personal/melroy_castalino_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
-          demoVideoLink:
-            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2ba53c76%2Db267%2D437a%2D8c0e%2D89dcf79de43c",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
+        },
+        {
+          title: "TFM",
+          description:
+            "Creative Synergies is currently handling travel requests using Excel-based forms. This project intends to convert these forms into a web-based application to manage the end-to-end workflow of travel requests across Domestic, Business, and Work Permit categories. The goal is to streamline submission, approval, and tracking processes for employees, managers, HR, and travel teams.",
+          icon: Plane,
+          iconColor: "text-blue-500",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
         },
       ],
     },
@@ -258,17 +282,30 @@ const CategoriesPage = () => {
       name: "Process Automation & Optimization",
       items: [
         {
-          title: "Automation Script Generator",
+          title: "Automated Test Case Generation",
+          description:
+            "Automatically convert plain-text requirements or user stories into accurate test cases and BDD scenarios using LLMs with RAG. Supports both manual and automated testing, with continuous improvement via domain-specific context.",
+          icon: SquarePen,
+          iconColor: "text-blue-500",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F01%20Project%20Vision%20and%20Goals%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+          documentationLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD%2FGenAI%5FDriven%5FTestCase%5FGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2FRecording%2FGenAI%5FDriven%5FTestCase%5FGeneration%2DShort%5FVideo%2Emp4&ga=1&LOF=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E79d3053c%2D1ac6%2D4257%2Dab85%2D5455c46b5575",
+        },
+        {
+          title: "Automated Test Script Generation ",
           description:
             "Capture user interactions using test script recorder and transform them into structured BDD scenarios, step definitions, and POMs using AI. Instantly integrates with automation frameworks for efficient test execution and reporting.",
           icon: TerminalSquare,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestAutomationScriptGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EbjmjSa5YfROuXy-r0-AMEEBzjqTjTsZGbB7rLcl7Tpr8A?e=1kmk4G",
           documentationLink:
-            "https://globalcsg-my.sharepoint.com/personal/bhanu_surya_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FTestScriptGenerator%2DSoftware%20Architecture%20Design%28HLD%29%201%2Epdf&parent=%2Fpersonal%2Fbhanu%5Fsurya%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EULWXqnIW2lLhnURXmD-XGwBllDcDMVM14trGKj0BtMImQ?e=4I0g3K",
           demoVideoLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F10%20Recording%2FGen%5FAI%5FDriven%5FTest%5FScript%5FGenerator%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E84659811%2D72b9%2D431d%2Dbae6%2Dba522f9bca6d",
+            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EQoAzQvfpwBBoIBBXEoxaz4BfLXtQRwPYaH1rtHSeZ-oZA?e=2tFKZT",
         },
         {
           title: "Battery Life Optimization",
@@ -316,11 +353,11 @@ const CategoriesPage = () => {
           icon: Users,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2FFSM%20Pitch%20Desk%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2FDemo%20Video%2FCREATIVE%27s%20Filed%20Service%20Management%20Tool%201%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2FDemo%20Video&p=true&ga=1",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%20FSM%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2FDemo%20Video%2FVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edcaab1bc%2D7595%2D4c5d%2D90ef%2D575ab352879a",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2FDemo%20Video%2FFSM%20Demo%5FShort%2Emp4&ga=1&LOF=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E19aee9dd%2Da3ba%2D4dbb%2D98f3%2Da1ca296fe6f1",
         },
         {
           title: "P&ID",
@@ -346,20 +383,7 @@ const CategoriesPage = () => {
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
-            "https://globalcsg-my.sharepoint.com/personal/renuka_gaddam_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Frenuka%5Fgaddam%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FScreen%20Recording%202025%2D05%2D29%20192527%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75af0642%2D6f5e%2D47cd%2D9f03%2Db59070dd9f54",
-        },
-        {
-          title: "Test Case Generator",
-          description:
-            "Automatically convert plain-text requirements or user stories into accurate test cases and BDD scenarios using LLMs with RAG. Supports both manual and automated testing, with continuous improvement via domain-specific context.",
-          icon: SquarePen,
-          iconColor: "text-blue-500",
-          pitchDeckLink:
-            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
-          documentationLink:
-            "https://globalcsg-my.sharepoint.com/personal/melroy_castalino_global-csg_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fpersonal%2Fmelroy%5Fcastalino%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files&ga=1",
-          demoVideoLink:
-            "https://globalcsg-my.sharepoint.com/personal/savitha_phadake_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Fsavitha%5Fphadake%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FGenAIDrivenTestCaseGeneration%5FShortVideo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2ba53c76%2Db267%2D437a%2D8c0e%2D89dcf79de43c",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2FLatest%20Documents%2FRoute%20Optimization%20Instruction%20Video%20%2D%20Short%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1f44116e%2D72d6%2D4b44%2Daf92%2Dbc3b9e01b95c",
         },
       ],
     },
