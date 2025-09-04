@@ -2,6 +2,7 @@
   "name": "assetsolutions",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://innovationhub.global-csg.com/",
   "dependencies": {
     "@azure/msal-browser": "^4.21.1",
     "@azure/msal-react": "^3.0.19",
