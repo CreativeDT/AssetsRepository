@@ -7,7 +7,6 @@ import { useDispatch } from "react-redux";
 import { logout as logoutAction } from "../../redux/authSlice"; // adjust path
 
 const Navbar = () => {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [profileImage, setProfileImage] = useState(null);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
@@ -115,7 +114,7 @@ const Navbar = () => {
 
         {activeAccount && (
           <div className="relative" ref={dropdownRef}>
-            {/* ✅ Navbar Avatar */}
+            {/*  Navbar Avatar */}
             {profileImage ? (
               <img
                 src={profileImage}

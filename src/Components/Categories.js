@@ -1,4 +1,3 @@
-
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/prop-types */
 
@@ -23,6 +22,14 @@ import {
   Truck,
   TerminalSquare,
   SquarePen,
+  RadioTower,
+  Server,
+  TrendingUp,
+  Activity,
+  ClipboardCheck,
+  Mail,
+  Navigation2,
+  Layers,
 } from "lucide-react";
 
 const CategoriesPage = () => {
@@ -34,6 +41,25 @@ const CategoriesPage = () => {
     {
       name: "AI/ML GenAI  Solutions",
       items: [
+        {
+          title: "Agentic AI - Data Pipeline",
+          description: "NA",
+          icon: Server, // better than Truck
+          iconColor: "text-blue-500",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
+        },
+        {
+          title: "AIML - Choke Optimization",
+          description: "NA",
+          icon: TrendingUp, // better than Truck
+          iconColor: "text-blue-500",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
+        },
+
         {
           title: "AI Powered Real Time ETA Prediction",
           description:
@@ -87,6 +113,24 @@ const CategoriesPage = () => {
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies-All%2FShared%20Documents%2FDT%20-%20Assets%2FBattery%20Optimization%2Fbattery_health_short_video%2Emp4&referrer=Teams%2ETEAMS-ELECTRON&referrerScenario=teamsSdk_ns-bim",
         },
         {
+          title: "Battery SOH prediction using AI",
+          description: "NA",
+          icon: Activity,
+          iconColor: "text-blue-500",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
+        },
+        {
+          title: "Contract and Compliance Analyzer",
+          description: "NA",
+          icon: ClipboardCheck,
+          iconColor: "text-blue-500",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
+        },
+        {
           title: "Data Quality",
           icon: Database,
           iconColor: "text-blue-500",
@@ -100,10 +144,28 @@ const CategoriesPage = () => {
             "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/ETcDHmUaaw1AoaVV9re97xMBqH_RWX_9coqqj7hLD993Dw?e=AOsDzF",
         },
         {
+          title: "Email Classification",
+          description: "NA",
+          icon: Mail,
+          iconColor: "text-blue-500",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
+        },
+        {
+          title: "Freight Lane Status Prediction",
+          description: "NA",
+          icon: Truck,
+          iconColor: "text-blue-500",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
+        },
+        {
           title: "Freight Tracker",
           description:
             "Freight Tracker is an AI/ML-powered logistics solution that enables real-time tracking and intelligent monitoring of freight shipments. Leveraging machine learning algorithms, it predicts estimated time of arrival (ETA), detects route anomalies, and identifies potential delays before they occur. With geospatial data, predictive analytics, and automated alerts, the system optimizes delivery routes and improves supply chain visibility, driving operational efficiency and timely decision-making.",
-          icon: Truck,
+          icon: Navigation2,
           iconColor: "text-blue-500",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFreight%20Tracker%2F09%20Meetings%20%26%20Misc%2FFreightTracker%5FMarch25%5F2025%20v0%2E1%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFreight%20Tracker%2F09%20Meetings%20%26%20Misc&p=true&ga=1",
@@ -168,7 +230,7 @@ const CategoriesPage = () => {
           title: "Multi-Agentic Framework",
           description:
             "Creative Synergies is currently handling travel requests using Excel-based forms. This project intends to convert these forms into a web-based application to manage the end-to-end workflow of travel requests across Domestic, Business, and Work Permit categories. The goal is to streamline submission, approval, and tracking processes for employees, managers, HR, and travel teams.",
-          icon: Plane,
+          icon: Users,
           iconColor: "text-blue-500",
           pitchDeckLink: "NA",
           documentationLink: "NA",
@@ -178,7 +240,7 @@ const CategoriesPage = () => {
           title: "TFM",
           description:
             "Creative Synergies is currently handling travel requests using Excel-based forms. This project intends to convert these forms into a web-based application to manage the end-to-end workflow of travel requests across Domestic, Business, and Work Permit categories. The goal is to streamline submission, approval, and tracking processes for employees, managers, HR, and travel teams.",
-          icon: Plane,
+          icon: Layers,
           iconColor: "text-blue-500",
           pitchDeckLink: "NA",
           documentationLink: "NA",
@@ -244,6 +306,20 @@ const CategoriesPage = () => {
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
             "https://globalcsg-my.sharepoint.com/personal/renuka_gaddam_global-csg_com/_layouts/15/stream.aspx?id=%2Fpersonal%2Frenuka%5Fgaddam%5Fglobal%2Dcsg%5Fcom%2FDocuments%2FMicrosoft%20Teams%20Chat%20Files%2FScreen%20Recording%202025%2D05%2D29%20192527%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75af0642%2D6f5e%2D47cd%2D9f03%2Db59070dd9f54",
+        },
+      ],
+    },
+    {
+      name: "Internet of Things (IoT)",
+      items: [
+        {
+          title: "Midstream Shield – Sensor Data Analysis",
+          description: "NA",
+          icon: RadioTower,
+          iconColor: "text-blue-500",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
         },
       ],
     },
@@ -402,16 +478,6 @@ const CategoriesPage = () => {
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRBP%20Connect%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%20HRBP%201%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRBP%20Connect%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRBP%20Connect%2FHRBP%2D%20Short%20Video%2Emp4&ga=1&LOF=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E2f94e7bc%2Dd9ce%2D4fc2%2D992e%2D0650fee16438",
-        },
-        {
-          title: "HRSS Mobility",
-          description:
-            "Creative Synergies is currently handling travel requests using Excel-based forms. This project intends to convert these forms into a web-based application to manage the end-to-end workflow of travel requests across Domestic, Business, and Work Permit categories. The goal is to streamline submission, approval, and tracking processes for employees, managers, HR, and travel teams.",
-          icon: Plane,
-          iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
         },
         {
           title: "HRSS Power BI Report",

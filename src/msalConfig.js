@@ -4,6 +4,6 @@ export const msalConfig = {
     authority:
       "https://login.microsoftonline.com/a9c50c6c-2ecc-4653-99b2-58024af91866", // from Azure portal
     redirectUri: "https://innovationhub.global-csg.com", // for server deployment purpose
-    // redirectUri: "http://localhost:5173/", to serve local purpose.
+    // redirectUri: "http://localhost:5173/", //to serve local purpose.
   },
 };
