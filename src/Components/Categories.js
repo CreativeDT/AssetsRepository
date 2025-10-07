@@ -13,23 +13,22 @@ import {
   FileSearch,
   LineChart,
   LayoutDashboard,
-  School,
   Globe,
   Plane,
   Users,
   ClipboardList,
-  Workflow,
   Truck,
   TerminalSquare,
   SquarePen,
   RadioTower,
-  Server,
-  TrendingUp,
-  Activity,
+  BrainCircuit,
+  Gauge,
   ClipboardCheck,
   Mail,
-  Navigation2,
   Layers,
+  Atom,
+  Wrench,
+  GraduationCap,
 } from "lucide-react";
 
 const CategoriesPage = () => {
@@ -43,17 +42,19 @@ const CategoriesPage = () => {
       items: [
         {
           title: "Agentic AI - Data Pipeline",
-          description: "NA",
-          icon: Server, // better than Truck
+          description:
+            "An agentic framework where specialized LLM-powered agents collaborate with Spark to interpret goals, design, adapt and orchestrate reusable data pipelines end-to-end.",
+          icon: BrainCircuit, // better than Truck
           iconColor: "text-blue-500",
           pitchDeckLink: "NA",
           documentationLink: "NA",
           demoVideoLink: "NA",
         },
         {
-          title: "AIML - Choke Optimization",
-          description: "NA",
-          icon: TrendingUp, // better than Truck
+          title: "Creative’s WellShield",
+          description:
+            "AI-Powered Wellhead & Tank Monitoring Solution: Our AI/ML-driven Choke Optimization system uses real-time telemetry data to predict the current choke percentage and forecast future choke positions. This enables operators to proactively optimize well performance, maintain flow stability, and plan for efficient production management.",
+          icon: Gauge, // better than Truck
           iconColor: "text-blue-500",
           pitchDeckLink: "NA",
           documentationLink: "NA",
@@ -67,7 +68,7 @@ const CategoriesPage = () => {
           icon: Plane,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAI%20Powered%20Real%20Time%20ETA%20Prediction%2F01%20Project%20Vision%20and%20Goals%2FFreight%5FTracker%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAI%20Powered%20Real%20Time%20ETA%20Prediction%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_AI%20Powered%20Real%20Time%20ETA%20Prediction.pdf?CT=1759835932462&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAI%20Powered%20Real%20Time%20ETA%20Prediction%2F04%20Design%2F03%20HLD%20and%20LLD%2FReal%5Ftime%5FETA%5FPrediction%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAI%20Powered%20Real%20Time%20ETA%20Prediction%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -80,7 +81,7 @@ const CategoriesPage = () => {
           icon: SquarePen,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F01%20Project%20Vision%20and%20Goals%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_GenAIDrivenTestCaseGeneration_PitchDeck_v3.pdf?CT=1759838545226&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD%2FGenAI%5FDriven%5FTestCase%5FGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -93,7 +94,7 @@ const CategoriesPage = () => {
           icon: TerminalSquare,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EbjmjSa5YfROuXy-r0-AMEEBzjqTjTsZGbB7rLcl7Tpr8A?e=1kmk4G",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_GenAIDrivenTestAutomationScriptGeneration_PitchDeck.pdf?CT=1759838382046&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EULWXqnIW2lLhnURXmD-XGwBllDcDMVM14trGKj0BtMImQ?e=4I0g3K",
           demoVideoLink:
@@ -106,24 +107,17 @@ const CategoriesPage = () => {
           icon: BatteryCharging,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F01%20Project%20Vision%20and%20Goals%2FBattery%20SOH%20optimization%20using%20AI%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_PitchDeck_battery_optimization_Final.pdf?CT=1759838875064&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F04%20Design%2FBattery%20life%20optimization%20HLD%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F04%20Design&p=true&ga=1",
           demoVideoLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies-All%2FShared%20Documents%2FDT%20-%20Assets%2FBattery%20Optimization%2Fbattery_health_short_video%2Emp4&referrer=Teams%2ETEAMS-ELECTRON&referrerScenario=teamsSdk_ns-bim",
         },
-        {
-          title: "Battery SOH prediction using AI",
-          description: "NA",
-          icon: Activity,
-          iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
-        },
+
         {
           title: "Contract and Compliance Analyzer",
-          description: "NA",
+          description:
+            "An AI-powered Contract & Compliance Analyzer that reviews contracts against critical clauses using GenAI and RAG, ensuring compliance gaps are quickly identified.",
           icon: ClipboardCheck,
           iconColor: "text-blue-500",
           pitchDeckLink: "NA",
@@ -137,25 +131,17 @@ const CategoriesPage = () => {
           description:
             "A Data Quality App that detects, explains, and correct anomalies in datasets using natural language, enabling seamlesss and code-free data cleansing.",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FData%20Quality%2F01%20Project%20Vision%20and%20Goals%2FData%20quality%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FData%20Quality%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_Data%20Quality.pdf?CT=1759837939196&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FData%20Quality%2F04%20Design%2F03%20HLD%20and%20LLD%2FHIGH%20LEVEL%20DESIGN%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FData%20Quality%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1",
           demoVideoLink:
             "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/ETcDHmUaaw1AoaVV9re97xMBqH_RWX_9coqqj7hLD993Dw?e=AOsDzF",
         },
         {
-          title: "Email Classification",
-          description: "NA",
+          title: "Email Intent Classification",
+          description:
+            "Email intent classification is an AI-driven process that automatically analyzes incoming emails to identify their purpose - such as confirmations, inquiries, or complaints - so they can be routed and handled quickly without manual review.",
           icon: Mail,
-          iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
-        },
-        {
-          title: "Freight Lane Status Prediction",
-          description: "NA",
-          icon: Truck,
           iconColor: "text-blue-500",
           pitchDeckLink: "NA",
           documentationLink: "NA",
@@ -164,11 +150,11 @@ const CategoriesPage = () => {
         {
           title: "Freight Tracker",
           description:
-            "Freight Tracker is an AI/ML-powered logistics solution that enables real-time tracking and intelligent monitoring of freight shipments. Leveraging machine learning algorithms, it predicts estimated time of arrival (ETA), detects route anomalies, and identifies potential delays before they occur. With geospatial data, predictive analytics, and automated alerts, the system optimizes delivery routes and improves supply chain visibility, driving operational efficiency and timely decision-making.",
-          icon: Navigation2,
+            "An AI/ML-driven intelligent scheduling and workforce optimization platform that predicts real-time ETAs, optimizes trailer-driver allocation, and dynamically adapts to traffic, cargo, and regulatory constraints boosting logistics efficiency while reducing delays and idle time",
+          icon: Truck,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFreight%20Tracker%2F09%20Meetings%20%26%20Misc%2FFreightTracker%5FMarch25%5F2025%20v0%2E1%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFreight%20Tracker%2F09%20Meetings%20%26%20Misc&p=true&ga=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_FreightTracker.pdf?CT=1759838222868&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFreight%20Tracker%2F09%20Meetings%20%26%20Misc%2FHigh%20Level%20Proposed%20Solution%20Diagram%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFreight%20Tracker%2F09%20Meetings%20%26%20Misc&p=true&ga=1",
           demoVideoLink:
@@ -181,7 +167,7 @@ const CategoriesPage = () => {
           icon: Bot,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments%2FEffort%20Metrics%20%2D%20Knowledge%20Bot%20%281%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_Knowledge_bot%20Pitchdeck_Final.pdf?CT=1759838841072&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments%2FHLD%5FDocumentation%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -192,7 +178,7 @@ const CategoriesPage = () => {
           icon: Brain,
           iconColor: "text-blue-500",
           description:
-            "To develop a Proof of Concept (PoC) for generating Instruction Line (IL) / Programmable Logic Control (PLC) code using Large Language Models (LLMs)",
+            "LLM4ICS converts natural-language instructions into PLC- ready Instruction List (IL) code with bidirectional generation(Natural Language to Industrial Line Code & Vice Versa), routine auto-creation, and tag import. By automating repetitive programming in Studio 5000, it accelerates development, reduces errors, and cuts manual coding effort , enabling engineers to focus on high-value tasks.",
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc%2FNatural%20Language%20to%20PLC%20Instruction%20Generation%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc&p=true&ga=1&LOF=1",
           documentationLink:
@@ -207,7 +193,7 @@ const CategoriesPage = () => {
           icon: FileSearch,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F09%20Meetings%20and%20Misc%2FSymbol%20Detection%20PID%20%2D%20Presentation%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F09%20Meetings%20and%20Misc&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/Symbol%20Detection%20Pitch%20Deck.pdf?CT=1759839157082&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EYPSaqoOGBhLsFJ2TmPzB_sBsWfxB2JaE8zO7u4YxRR4Ng?e=5xpWVG",
           demoVideoLink:
@@ -220,11 +206,21 @@ const CategoriesPage = () => {
           icon: Route,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals%2FRouteOptimization%5Fv1%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/RouteOptimization_PitchDeck.pdf?CT=1759840012248&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2FLatest%20Documents%2FRoute%20Optimization%20Instruction%20Video%20%2D%20Short%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1f44116e%2D72d6%2D4b44%2Daf92%2Dbc3b9e01b95c",
+        },
+        {
+          title: "Semantic Search",
+          description: "NA",
+          icon: Atom,
+          iconColor: "text-blue-500",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_Semantic_Search_PitchDeck_Final.pdf?CT=1759839519050&OR=ItemsView",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
         },
         {
           title: "Multi-Agentic Framework",
@@ -258,7 +254,7 @@ const CategoriesPage = () => {
           icon: LayoutDashboard,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE%2FCREATIVE%5FDigiVAVE%5FTool%20Pitch%20Desk%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_DigiVave%20PitchDeck.pdf?CT=1759838035896&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE%2FDesign%20Docs%2FDigiVAVE%5FHLD%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE%2FDesign%20Docs&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -266,11 +262,12 @@ const CategoriesPage = () => {
         },
         {
           title: "HRSS Power BI Report",
-          description: "Fuel consumption monitoring systems...",
+          description:
+            "The HRSS Power BI Reporting Solution centralizes and streamlines HR data analysis by transforming flat file data into five interactive reports: Attendance, Background Verification (BGV), Salary Analytics, Headcount Summary, and Headcount Trends. The solution enhances workforce visibility, ensures compliance, and supports strategic decision-making through dynamic, scalable, and actionable insights.",
           icon: LineChart,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRSS%20Power%20BI%20Report%2F01%20Project%20Vision%20and%20Goals%2FHRSS%20Analytics%20Report%20Pitch%20Deck%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRSS%20Power%20BI%20Report%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_HRSS_Analytics.pdf?CT=1759838720075&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRSS%20Power%20BI%20Report%2F04%20Design%2F03%20HLD%20and%20LLD%2FHRSS%20Analytics%20Report%2D%20HLD%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRSS%20Power%20BI%20Report%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -285,10 +282,10 @@ const CategoriesPage = () => {
           title: "FSM",
           description:
             "The FSM system streamlines service operations through digital ticketing, technician assignment, and work order tracking. It offers role-based dashboards for efficient workflow management and real-time visibility.",
-          icon: Workflow,
+          icon: Wrench,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2FFSM%20Pitch%20Desk%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_FSM%20PitchDeck.pdf?CT=1759838265787&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%20FSM%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -301,7 +298,7 @@ const CategoriesPage = () => {
           icon: Route,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals%2FRouteOptimization%5Fv1%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/RouteOptimization_PitchDeck.pdf?CT=1759840012248&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -313,8 +310,9 @@ const CategoriesPage = () => {
       name: "Internet of Things (IoT)",
       items: [
         {
-          title: "Midstream Shield – Sensor Data Analysis",
-          description: "NA",
+          title: "Creative’s MidStream Shield",
+          description:
+            "Real-Time Oil & Gas Incident Monitoring Solution: MidStream Shield is a real-time oil & gas incident monitoring solution that leverages IoT sensors (pressure, temperature, leak detection) to ensure safety and reliability in midstream operations. With a live map-based dashboard, instant Kafka-driven alerts, and detailed incident logging with analytics, it provides zone-level visibility, rapid escalation workflows, and full audit readiness. Its scalable, modular design makes integration seamless across existing systems.",
           icon: RadioTower,
           iconColor: "text-blue-500",
           pitchDeckLink: "NA",
@@ -333,7 +331,7 @@ const CategoriesPage = () => {
           icon: Globe,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments%2FEffort%20Metrics%20%2D%20Knowledge%20Bot%20%281%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_Knowledge_bot%20Pitchdeck_Final.pdf?CT=1759838841072&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments%2FHLD%5FDocumentation%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FKnowledge%20Bot%2FDocuments&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -343,10 +341,10 @@ const CategoriesPage = () => {
           title: "LMS",
           description:
             "LMS (Learning Management System) is  software platform used to create, Nomination, manage, and track  courses or training programs.",
-          icon: School,
+          icon: GraduationCap,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EcO4vNaHajdNqNUdf0WjIisBfLDwYXS1S65yZOS-mLO3GQ?e=hY3sa0",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/LMS_PitchDeck.pdf?CT=1759838997438&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FLMS%2F04%20Design%2F03%20HLD%20and%20LLD%2FLMS%2DHigh%5FLevel%5FDesign%5FDoc%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FLMS%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -364,7 +362,7 @@ const CategoriesPage = () => {
           icon: SquarePen,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F01%20Project%20Vision%20and%20Goals%2FGenAIDrivenTestCaseGeneration%5FPitchDeck%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_GenAIDrivenTestCaseGeneration_PitchDeck_v3.pdf?CT=1759838545226&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD%2FGenAI%5FDriven%5FTestCase%5FGeneration%2DSoftware%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Case%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -377,7 +375,7 @@ const CategoriesPage = () => {
           icon: TerminalSquare,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EbjmjSa5YfROuXy-r0-AMEEBzjqTjTsZGbB7rLcl7Tpr8A?e=1kmk4G",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_GenAIDrivenTestAutomationScriptGeneration_PitchDeck.pdf?CT=1759838382046&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EULWXqnIW2lLhnURXmD-XGwBllDcDMVM14trGKj0BtMImQ?e=4I0g3K",
           demoVideoLink:
@@ -390,7 +388,7 @@ const CategoriesPage = () => {
           icon: BatteryCharging,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F01%20Project%20Vision%20and%20Goals%2FBattery%20SOH%20optimization%20using%20AI%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_PitchDeck_battery_optimization_Final.pdf?CT=1759838875064&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -403,7 +401,7 @@ const CategoriesPage = () => {
           description:
             "A Data Quality App that detects, explains, and correct anomalies in datasets using natural language, enabling seamlesss and code-free data cleansing.",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FData%20Quality%2F01%20Project%20Vision%20and%20Goals%2FData%20quality%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FData%20Quality%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_Data%20Quality.pdf?CT=1759837939196&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FData%20Quality%2F04%20Design%2F03%20HLD%20and%20LLD%2FHIGH%20LEVEL%20DESIGN%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FData%20Quality%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1",
           demoVideoLink:
@@ -416,7 +414,7 @@ const CategoriesPage = () => {
           icon: LayoutDashboard,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE%2FCREATIVE%5FDigiVAVE%5FTool%20Pitch%20Desk%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_DigiVave%20PitchDeck.pdf?CT=1759838035896&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE%2FDesign%20Docs%2FDigiVAVE%5FHLD%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FDigiVAVE%2FDesign%20Docs&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -426,10 +424,10 @@ const CategoriesPage = () => {
           title: "FSM",
           description:
             "The FSM system streamlines service operations through digital ticketing, technician assignment, and work order tracking. It offers role-based dashboards for efficient workflow management and real-time visibility.",
-          icon: Users,
+          icon: Wrench,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2FDemo%20Video%2FCREATIVE%27s%20Filed%20Service%20Management%20Tool%201%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2FDemo%20Video&p=true&ga=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_FSM%20PitchDeck.pdf?CT=1759838265787&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%20FSM%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FFSM%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -442,7 +440,7 @@ const CategoriesPage = () => {
           icon: FileSearch,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F09%20Meetings%20and%20Misc%2FSymbol%20Detection%20PID%20%2D%20Presentation%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F09%20Meetings%20and%20Misc&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/Symbol%20Detection%20Pitch%20Deck.pdf?CT=1759839157082&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EYPSaqoOGBhLsFJ2TmPzB_sBsWfxB2JaE8zO7u4YxRR4Ng?e=5xpWVG",
           demoVideoLink:
@@ -455,7 +453,7 @@ const CategoriesPage = () => {
           icon: Route,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals%2FRouteOptimization%5Fv1%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/RouteOptimization_PitchDeck.pdf?CT=1759840012248&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -473,7 +471,7 @@ const CategoriesPage = () => {
           icon: ClipboardList,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRBP%20Connect%2FHRBP%20Connect%20Pitch%20desk%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRBP%20Connect&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_HRBP_Connect.pdf?CT=1759838646754&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRBP%20Connect%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%20HRBP%201%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRBP%20Connect%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -486,7 +484,7 @@ const CategoriesPage = () => {
           icon: LineChart,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRSS%20Power%20BI%20Report%2F01%20Project%20Vision%20and%20Goals%2FHRSS%20Analytics%20Report%20Pitch%20Deck%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRSS%20Power%20BI%20Report%2F01%20Project%20Vision%20and%20Goals&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_HRSS_Analytics.pdf?CT=1759838720075&OR=ItemsView",
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRSS%20Power%20BI%20Report%2F04%20Design%2F03%20HLD%20and%20LLD%2FHRSS%20Analytics%20Report%2D%20HLD%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRSS%20Power%20BI%20Report%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
@@ -530,61 +528,6 @@ const CategoriesPage = () => {
   });
 
   return (
-    // <div className=" pl-8 pr-8  bg-gray-50">
-    //   <div className="flex min-h-screen bg-gray-50 max-w-7xl mx-auto  ">
-    //     {/* Sidebar */}
-    //     <div className="w-64 bg-gray rounded-lg shadow-md p-6 sticky top-0  top-0 max-h-[80vh] overflow-y-auto border-t border-gray-300">
-    //       <h2 className="text-lg font-semibold m-4">Categories</h2>
-    //       <nav className="space-y-2 md:space-y-3">
-    //         <button
-    //           key="all"
-    //           onClick={() => setSelectedCategory("All")}
-    //           className={`w-full text-left px-4 py-2 rounded-lg ${
-    //             selectedCategory === "All"
-    //               ? "bg-blue-100 text-blue-700 font-bold scale-[1.02]"
-    //               : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
-    //           }`}
-    //         >
-    //           All
-    //         </button>
-    //         {categories.map((category) => (
-    //           <button
-    //             key={category.name}
-    //             onClick={() => setSelectedCategory(category.name)}
-    //             className={`w-full text-left px-4 py-1 rounded-lg ${
-    //               selectedCategory === category.name
-    //                 ? "bg-blue-100 text-blue-700 font-bold scale-[1.02]"
-    //                 : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
-    //             }`}
-    //           >
-    //             {category.name}
-    //           </button>
-    //         ))}
-    //       </nav>
-    //     </div>
-
-    //     {/* Main Content */}
-    //     <main className=" flex-1 p-8 overflow-y-auto">
-    //       <div className="max-w-7xl mx-auto">
-    //         {/* Search Bar */}
-    //         <div className="mb-8">
-    //           <input
-    //             type="text"
-    //             placeholder="Search items..."
-    //             value={searchQuery}
-    //             onChange={(e) => setSearchQuery(e.target.value)}
-    //             className="w-full px-4 py-3 rounded-lg border border-gray-300
-    //                          focus:outline-none focus:ring-2 focus:ring-blue-500
-    //                          focus:border-transparent transition-all"
-    //           />
-    //         </div>
-
-    //         <CategorySection items={filteredItems} />
-    //       </div>
-    //     </main>
-    //   </div>
-    // </div>
-
     <div className="bg-gray-50 min-h-screen">
       {/* Topbar for Mobile */}
       <div className="md:hidden flex justify-between items-center p-4 shadow-sm bg-white sticky top-0 z-10">

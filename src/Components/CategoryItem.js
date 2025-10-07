@@ -16,15 +16,14 @@ const CategoryItem = ({
   demoVideoLink,
 }) => {
   const isHRSSMobility =
-    title === "Multi-Agentic Framework" ||
+    title === "Multi-Agentic" ||
     title === "TFM" ||
     title === "Freight Lane Status Prediction" ||
     title === "Agentic AI - Data Pipeline" ||
-    title === "AIML - Choke Optimization" ||
-    title === "Midstream Shield – Sensor Data Analysis" ||
+    title === "Creative’s WellShield" ||
+    title === "Creative’s MidStream Shield" ||
     title === "Contract and Compliance Analyzer" ||
-    title === "Battery SOH prediction using AI" ||
-    title === "Email Classification";
+    title === "Email Intent Classification";
 
   const [isHovered, setIsHovered] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
