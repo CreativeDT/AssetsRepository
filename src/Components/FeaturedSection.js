@@ -37,7 +37,7 @@ const FeaturedSection = () => {
       description:
         "To develop a Proof of Concept (PoC) for generating Instruction Line (IL) / Programmable Logic Control (PLC) code using Large Language Models (LLMs)",
       pitchDeckLink:
-        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc%2FNatural%20Language%20to%20PLC%20Instruction%20Generation%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc&p=true&ga=1&LOF=1",
+        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_Natural%20Language%20to%20PLC%20Instruction%20Generation%20flyer%20version_Final%20.pdf?CT=1759842014727&OR=ItemsView",
       documentationLink:
         "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc%2FLLM4ICS%20architecture%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc&p=true&ga=1&LOF=1",
       demoVideoLink:
