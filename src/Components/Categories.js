@@ -214,7 +214,8 @@ const CategoriesPage = () => {
         },
         {
           title: "Semantic Search",
-          description: "NA",
+          description:
+            "Semantic Search enables engineers to instantly find the exact procedures they need by understanding the true meaning of their queries, not just keywords. Running fully offline, it locates and highlights the right sections, diagrams, and steps from complex manuals, reducing downtime, preventing errors, and ensuring seamless operations even in remote environments.",
           icon: Atom,
           iconColor: "text-blue-500",
           pitchDeckLink:
