@@ -1,6 +1,6 @@
 import React from "react";
 import CategoryItem from "./CategoryItem";
-import { Brain, FileSearch, Route, School } from "lucide-react";
+import { Brain, FileSearch, Route, GraduationCap } from "lucide-react";
 import backgroundImage from "../Assets/banner-abstract.jpg";
 const FeaturedSection = () => {
   const features = [
@@ -20,8 +20,8 @@ const FeaturedSection = () => {
     {
       title: "LMS",
       description:
-        "LLM4ICS converts natural-language instructions into PLC- ready Instruction List (IL) code with bidirectional generation(Natural Language to Industrial Line Code & Vice Versa), routine auto-creation, and tag import. By automating repetitive programming in Studio 5000, it accelerates development, reduces errors, and cuts manual coding effort , enabling engineers to focus on high-value tasks.",
-      icon: School,
+        "LMS (Learning Management System) is  software platform used to create, Nomination, manage, and track  courses or training programs.",
+      icon: GraduationCap,
       iconColor: "text-blue-500",
       pitchDeckLink:
         "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/LMS_PitchDeck.pdf?CT=1759840715690&OR=ItemsView",
@@ -35,13 +35,13 @@ const FeaturedSection = () => {
       icon: Brain,
       iconColor: "text-blue-500",
       description:
-        "To develop a Proof of Concept (PoC) for generating Instruction Line (IL) / Programmable Logic Control (PLC) code using Large Language Models (LLMs)",
+        "LLM4ICS converts natural-language instructions into PLC- ready Instruction List (IL) code with bidirectional generation(Natural Language to Industrial Line Code & Vice Versa), routine auto-creation, and tag import. By automating repetitive programming in Studio 5000, it accelerates development, reduces errors, and cuts manual coding effort , enabling engineers to focus on high-value tasks.",
       pitchDeckLink:
         "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_Natural%20Language%20to%20PLC%20Instruction%20Generation%20flyer%20version_Final%20.pdf?CT=1759842014727&OR=ItemsView",
       documentationLink:
         "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc%2FLLM4ICS%20architecture%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc&p=true&ga=1&LOF=1",
       demoVideoLink:
-        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2FDemo%20Recording%2FLLM4ICS%201st%20version%20demo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef54953b9%2Df5b1%2D4e6e%2D82ce%2D6f4a0936ed9d",
+        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20Demo%20Videos%2FLLM4ICS%2DShort%20Video%2Emp4&ga=1&LOF=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef39e1519%2D82d3%2D4851%2D8a1d%2Dc34bd27dbb72&isDarkMode=false",
     },
     {
       title: "P&ID",

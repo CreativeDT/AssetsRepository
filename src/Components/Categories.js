@@ -184,7 +184,7 @@ const CategoriesPage = () => {
           documentationLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc%2FLLM4ICS%20architecture%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2F09%20Meetings%20%26%20Misc&p=true&ga=1&LOF=1",
           demoVideoLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2FDemo%20Recording%2FLLM4ICS%201st%20version%20demo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef54953b9%2Df5b1%2D4e6e%2D82ce%2D6f4a0936ed9d",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20Demo%20Videos%2FLLM4ICS%2DShort%20Video%2Emp4&ga=1&LOF=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef39e1519%2D82d3%2D4851%2D8a1d%2Dc34bd27dbb72&isDarkMode=false",
         },
         {
           title: "P&ID",
@@ -219,9 +219,10 @@ const CategoriesPage = () => {
           icon: Atom,
           iconColor: "text-blue-500",
           pitchDeckLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_Semantic_Search_PitchDeck_Final.pdf?CT=1759839519050&OR=ItemsView",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?viewid=1c6be442%2Dc98f%2D44b1%2D8d39%2D852ced6a14e5&ct=1759855803505&or=Teams%2DHL&ga=1&LOF=1&id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs%2FCREATIVE%5FSemantic%5FSearch%5FPitchDeck%5FFinal%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs&isSPOFile=1&xsdata=MDV8MDJ8fGFhZjYwYjhhZjU0YTRhYmIxMDQwMDhkZTA1YzFjMWI4fGE5YzUwYzZjMmVjYzQ2NTM5OWIyNTgwMjRhZjkxODY2fDB8MHw2Mzg5NTQ1MjY4NzAwODE2MDB8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDJOb1lYUnpMekU1T2pjNU1HTmxaakUxTFdVMVltWXRORE5tT1MwNVkyUXdMVEV4TldJNU5HTXpPRFkwT1Y5ak0ySTROR0l5WVMxaVpUSTVMVFJqWW1NdE9UYzVaaTFrT1RsbVl6VXpNemczWW1aQWRXNXhMbWRpYkM1emNHRmpaWE12YldWemMyRm5aWE12TVRjMU9UZzFOVGc0TmpNeE13PT18YzJiMmI2ZjMyODdhNGRhNzk2MzQwOGRlMDVjMWMxYjd8NTRiYTEyMTI2YzMyNDcxODhiNWRkMWMwMjNiNWY2MDU%3D&sdata=TGpjdnZKc2lIWWY0QzNtSGVPQzdaVHZ4NmdMbWVFRTdnU2JPaTg4aFdwYz0%3D&ovuser=a9c50c6c%2D2ecc%2D4653%2D99b2%2D58024af91866%2Cadhiyamaan%2Emaharajan%40global%2Dcsg%2Ecom",
           documentationLink: "NA",
-          demoVideoLink: "NA",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EUA2Y5TZTxpGvvyXTJrAiDIBwc26VwImwaWGkgYsKYoPYA?e=GpMlUJ&isSPOFile=1&xsdata=MDV8MDJ8fGZlNzBiYTEwNjZmZjQwMDdhMzU2MDhkZTA1YzFmMjcyfGE5YzUwYzZjMmVjYzQ2NTM5OWIyNTgwMjRhZjkxODY2fDB8MHw2Mzg5NTQ1Mjc2ODc2MTUzMTh8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDJOb1lYUnpMekU1T2pjNU1HTmxaakUxTFdVMVltWXRORE5tT1MwNVkyUXdMVEV4TldJNU5HTXpPRFkwT1Y5ak0ySTROR0l5WVMxaVpUSTVMVFJqWW1NdE9UYzVaaTFrT1RsbVl6VXpNemczWW1aQWRXNXhMbWRpYkM1emNHRmpaWE12YldWemMyRm5aWE12TVRjMU9UZzFOVGsyTnpjMk1RPT18NWQxZTVlYjhhMGNjNDI2OGY4YTUwOGRlMDVjMWYyNzF8OTc5MzI4YjdmYmYwNGZlY2JmMTY1MGVkOWY0NjJiOGI%3D&sdata=NFVmTVBFK1BiaFJsSzVJUFNSczZucjlacFhRME5wcnNzQTBTVUVTRHFjMD0%3D&ovuser=a9c50c6c-2ecc-4653-99b2-58024af91866%2Cadhiyamaan.maharajan%40global-csg.com",
         },
         {
           title: "Multi-Agentic Framework",

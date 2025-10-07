@@ -16,7 +16,7 @@ const CategoryItem = ({
   demoVideoLink,
 }) => {
   const isHRSSMobility =
-    title === "Multi-Agentic" ||
+    title === "Multi-Agentic Framework" ||
     title === "TFM" ||
     title === "Freight Lane Status Prediction" ||
     title === "Agentic AI - Data Pipeline" ||
