@@ -11,7 +11,7 @@ const FeaturedSection = () => {
       icon: Route,
       iconColor: "text-blue-500",
       pitchDeckLink:
-        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/RouteOptimization_PitchDeck.pdf?CT=1759840684980&OR=ItemsView",
+        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs%2FRouteOptimization%5FPitchDeck%2E%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs&p=true&ga=1",
       documentationLink:
         "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
       demoVideoLink:
@@ -24,7 +24,7 @@ const FeaturedSection = () => {
       icon: GraduationCap,
       iconColor: "text-blue-500",
       pitchDeckLink:
-        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/LMS_PitchDeck.pdf?CT=1759840715690&OR=ItemsView",
+        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs%2FLMS%5FPitchDeck%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs&p=true&ga=1",
       documentationLink:
         "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FLMS%2F04%20Design%2F03%20HLD%20and%20LLD%2FLMS%2DHigh%5FLevel%5FDesign%5FDoc%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FLMS%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
       demoVideoLink:
@@ -37,7 +37,7 @@ const FeaturedSection = () => {
       description:
         "LLM4ICS converts natural-language instructions into PLC- ready Instruction List (IL) code with bidirectional generation(Natural Language to Industrial Line Code & Vice Versa), routine auto-creation, and tag import. By automating repetitive programming in Studio 5000, it accelerates development, reduces errors, and cuts manual coding effort , enabling engineers to focus on high-value tasks.",
       pitchDeckLink:
-        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/CREATIVE_Natural%20Language%20to%20PLC%20Instruction%20Generation%20flyer%20version_Final%20.pdf?CT=1759842014727&OR=ItemsView",
+        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs%2FCREATIVE%5FNatural%20Language%20to%20PLC%20Instruction%20Generation%20flyer%20version%5FFinal%20%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs&p=true&ga=1",
       documentationLink:
         "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2FDocuments%2FLLM4ICS%5FHLD%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FLLM4ICS%2FDocuments&p=true&ga=1&LOF=1",
       demoVideoLink:
@@ -50,7 +50,7 @@ const FeaturedSection = () => {
       icon: FileSearch,
       iconColor: "text-blue-500",
       pitchDeckLink:
-        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/DT%20-%20Assets/All%20Assets%20-%20Pitch%20Deck/New%20Pitch%20-%20Updated/PDFs/Symbol%20Detection%20Pitch%20Deck.pdf?CT=1759840767209&OR=ItemsView",
+        "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs%2FSymbol%20Detection%20Pitch%20Deck%20%281%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs&p=true&ga=1",
       documentationLink:
         "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F04%20Design%2F03%20HLD%20and%20LLD%2FSymbol%2DDetection%2DPID%2DDocumentation%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FP%26ID%20%2D%20Piping%20and%20Instrumentation%20Diagram%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
       demoVideoLink:
