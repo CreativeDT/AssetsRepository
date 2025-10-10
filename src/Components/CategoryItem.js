@@ -16,11 +16,11 @@ const CategoryItem = ({
   demoVideoLink,
 }) => {
   const isHRSSMobility =
-    title === "Multi-Agentic Framework" ||
+    title === "AI / ML Powered Invoice Processing." ||
     title === "TFM" ||
     title === "Freight Lane Status Prediction" ||
     title === "Agentic AI - Data Pipeline" ||
-    title === "Creative’s WellShield" ||
+    title === "Choke Optimization" ||
     title === "Creative’s MidStream Shield" ||
     title === "Contract and Compliance Analyzer" ||
     title === "Email Intent Classification";
