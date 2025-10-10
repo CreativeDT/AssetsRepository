@@ -45,21 +45,13 @@ const CategoriesPage = () => {
             "An agentic framework where specialized LLM-powered agents collaborate with Spark to interpret goals, design, adapt and orchestrate reusable data pipelines end-to-end.",
           icon: BrainCircuit, // better than Truck
           iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAgentic%20AI%20Data%20Engineering%20Pipeline%2F09%20Meetings%20and%20Misc%2FAgentic%20AI%20For%20Data%20Pipeline%20Pitch%20Deck%20%281%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAgentic%20AI%20Data%20Engineering%20Pipeline%2F09%20Meetings%20and%20Misc&p=true&ga=1",
+          documentationLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAgentic%20AI%20Data%20Engineering%20Pipeline%2F09%20Meetings%20and%20Misc%2FAgentic%20AI%20for%20Data%20Pipeline%20Software%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAgentic%20AI%20Data%20Engineering%20Pipeline%2F09%20Meetings%20and%20Misc&p=true&ga=1",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAgentic%20AI%20Data%20Engineering%20Pipeline%2F09%20Meetings%20and%20Misc%2FAgentic%5FAI%5FDatapipeline%5FShort%5Fvideo%20%281%29%2Ewebm&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E706eeb40%2Da784%2D4bf6%2D9ca6%2D01d343c9a0f1",
         },
-        {
-          title: "Choke Optimization",
-          description:
-            "AI-Powered Wellhead & Tank Monitoring Solution: Our AI/ML-driven Choke Optimization system uses real-time telemetry data to predict the current choke percentage and forecast future choke positions. This enables operators to proactively optimize well performance, maintain flow stability, and plan for efficient production management.",
-          icon: Gauge, // better than Truck
-          iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
-        },
-
         {
           title: "AI Powered Real Time ETA Prediction",
           description:
@@ -95,9 +87,9 @@ const CategoriesPage = () => {
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs%2FCREATIVE%5FGenAIDrivenTestAutomationScriptGeneration%5FPitchDeck%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs&p=true&ga=1",
           documentationLink:
-            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EULWXqnIW2lLhnURXmD-XGwBllDcDMVM14trGKj0BtMImQ?e=4I0g3K",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD%2FCREATIVE%5FGenAI%5FDriven%5FAutomation%5FTestScript%5FGeneration%2DSoftware%20Architecture%20Design%28HLD%29%5FV0%2E2%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1",
           demoVideoLink:
-            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EQoAzQvfpwBBoIBBXEoxaz4BfLXtQRwPYaH1rtHSeZ-oZA?e=2tFKZT",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F10%20Recording%2FGen%5FAI%5FDriven%5FTest%5FScript%5FGenerator%5FShortVideo%5Fv2%2Ewebm&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5e6a62ca%2Defbd%2D40e8%2D8887%2D478ff262ea00",
         },
         {
           title: "Battery Life Optimization",
@@ -108,7 +100,7 @@ const CategoriesPage = () => {
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs%2FPitchDeck%5Fbattery%5Foptimization%20%281%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs&p=true&ga=1",
           documentationLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F04%20Design%2FBattery%20life%20optimization%20HLD%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FBattery%20Optimization%2F04%20Design&p=true&ga=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EQTrblUmglJNo9mRyW88T38BnCgYZ6OCvDNz-2VLzUeEGg?e=b74oSN",
           demoVideoLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies-All%2FShared%20Documents%2FDT%20-%20Assets%2FBattery%20Optimization%2Fbattery_health_short_video%2Emp4&referrer=Teams%2ETEAMS-ELECTRON&referrerScenario=teamsSdk_ns-bim",
         },
@@ -119,9 +111,12 @@ const CategoriesPage = () => {
             "An AI-powered Contract & Compliance Analyzer that reviews contracts against critical clauses using GenAI and RAG, ensuring compliance gaps are quickly identified.",
           icon: ClipboardCheck,
           iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FContract%20%26%20Compliance%20Analyzer%2F09%20Meetings%20and%20Misc%2FCREATIVE%5FContract%5Fand%5FCompliance%5FAnalyzer%5FPitchDeck%201%5FFinal%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FContract%20%26%20Compliance%20Analyzer%2F09%20Meetings%20and%20Misc&p=true&ga=1",
+          documentationLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FContract%20%26%20Compliance%20Analyzer%2F09%20Meetings%20and%20Misc%2FContract%20%26%20Compliance%20Analyzer%20%2D%20Software%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FContract%20%26%20Compliance%20Analyzer%2F09%20Meetings%20and%20Misc&p=true&ga=1",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FContract%20%26%20Compliance%20Analyzer%2F09%20Meetings%20and%20Misc%2Fshort%5Fvideo%5Fcontract%5FAnalyzer%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eee659f4f%2D0a9f%2D4698%2D98a6%2D5ee796502d52",
         },
         {
           title: "Data Quality",
@@ -142,9 +137,12 @@ const CategoriesPage = () => {
             "Email intent classification is an AI-driven process that automatically analyzes incoming emails to identify their purpose - such as confirmations, inquiries, or complaints - so they can be routed and handled quickly without manual review.",
           icon: Mail,
           iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FEmail%20Intent%20Classification%2F02%20Pitch%20Deck%2FEmail%20Intent%20Classification%20Pitch%20Deck%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FEmail%20Intent%20Classification%2F02%20Pitch%20Deck&p=true&ga=1A",
+          documentationLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FEmail%20Intent%20Classification%2F01%20Design%2FEmail%20Intent%20Classification%20%2D%20Software%20Architecture%20Design%28HLD%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FEmail%20Intent%20Classification%2F01%20Design&p=true&ga=1",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FEmail%20Intent%20Classification%2F03%20Asset%20Recording%2FEmail%20Intent%20Classification%20%2D%20Demo%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3a282b5c%2Dc577%2D4436%2D83ad%2Df6b9594c299b",
         },
         {
           title: "Freight Tracker",
@@ -230,9 +228,12 @@ const CategoriesPage = () => {
             "Creative Synergies is currently handling travel requests using Excel-based forms. This project intends to convert these forms into a web-based application to manage the end-to-end workflow of travel requests across Domestic, Business, and Work Permit categories. The goal is to streamline submission, approval, and tracking processes for employees, managers, HR, and travel teams.",
           icon: Layers,
           iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInvoice%20Processing%2F09%20Meetings%20and%20Misc%2FCREATIVE%5FInvoiceProcessing%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInvoice%20Processing%2F09%20Meetings%20and%20Misc&p=true&ga=1",
+          documentationLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInvoice%20Processing%2F09%20Meetings%20and%20Misc%2FInvoice%20Processing%20Software%20Architecture%20Design%28HLD%29%20%281%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInvoice%20Processing%2F09%20Meetings%20and%20Misc&p=true&ga=1",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInvoice%20Processing%2F09%20Meetings%20and%20Misc%2Foriginal%2D0ED14C68%2DE680%2D4A1D%2DA64E%2D9C44E192DB27%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E57dcef80%2De6ca%2D40d2%2Da8d9%2D8e175297c921",
         },
       ],
     },
@@ -307,9 +308,12 @@ const CategoriesPage = () => {
             "Real-Time Oil & Gas Incident Monitoring Solution: MidStream Shield is a real-time oil & gas incident monitoring solution that leverages IoT sensors (pressure, temperature, leak detection) to ensure safety and reliability in midstream operations. With a live map-based dashboard, instant Kafka-driven alerts, and detailed incident logging with analytics, it provides zone-level visibility, rapid escalation workflows, and full audit readiness. Its scalable, modular design makes integration seamless across existing systems.",
           icon: RadioTower,
           iconColor: "text-blue-500",
-          pitchDeckLink: "NA",
-          documentationLink: "NA",
-          demoVideoLink: "NA",
+          pitchDeckLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FMidStream%20Shield%2F09%20Meetings%20and%20Misc%2FMidStream%20Shield%20Real%2DTime%20Oil%20%26%20Gas%20Incident%20Monitoring%20Solution%202%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FMidStream%20Shield%2F09%20Meetings%20and%20Misc&p=true&ga=1",
+          documentationLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FMidStream%20Shield%2F09%20Meetings%20and%20Misc%2FMidStream%20Shield%20Real%2DTime%20Oil%20%26%20Gas%20Incident%20Monitoring%20Solution%20Software%20Architecture%20Design%28HLD%29%201%201%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FMidStream%20Shield%2F09%20Meetings%20and%20Misc&p=true&ga=1",
+          demoVideoLink:
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FMidStream%20Shield%2F09%20Meetings%20and%20Misc%2FMSRTOGIMS%20%28MIDSTREAM%20SHIELD%20REAL%2DTIME%20OIL%20And%20GAS%20INCIDENT%20MONITORING%20SOLUTION%2DDemo%29%2Emp4&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E53ab1f0e%2Dcb1e%2D4910%2Da93c%2D5aecf270f74a",
         },
       ],
     },
@@ -369,9 +373,9 @@ const CategoriesPage = () => {
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs%2FCREATIVE%5FGenAIDrivenTestAutomationScriptGeneration%5FPitchDeck%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs&p=true&ga=1",
           documentationLink:
-            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EULWXqnIW2lLhnURXmD-XGwBllDcDMVM14trGKj0BtMImQ?e=4I0g3K",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD%2FCREATIVE%5FGenAI%5FDriven%5FAutomation%5FTestScript%5FGeneration%2DSoftware%20Architecture%20Design%28HLD%29%5FV0%2E2%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1",
           demoVideoLink:
-            "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EQoAzQvfpwBBoIBBXEoxaz4BfLXtQRwPYaH1rtHSeZ-oZA?e=2tFKZT",
+            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FGen%20AI%20Driven%20Test%20Automation%20Script%20Generator%2F10%20Recording%2FGen%5FAI%5FDriven%5FTest%5FScript%5FGenerator%5FShortVideo%5Fv2%2Ewebm&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E5e6a62ca%2Defbd%2D40e8%2D8887%2D478ff262ea00",
         },
         {
           title: "Battery Life Optimization",
@@ -382,7 +386,7 @@ const CategoriesPage = () => {
           pitchDeckLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs%2FPitchDeck%5Fbattery%5Foptimization%20%281%29%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FAll%20Assets%20%2D%20Pitch%20Deck%2FNew%20Pitch%20%2D%20Updated%2FPDFs&p=true&ga=1",
           documentationLink:
-            "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD%2FHLD%20Document%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FRoute%20Optimization%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
+            "https://globalcsg.sharepoint.com/:b:/s/DigitalTechnologies-All/EQTrblUmglJNo9mRyW88T38BnCgYZ6OCvDNz-2VLzUeEGg?e=b74oSN",
           demoVideoLink:
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/_layouts/15/stream.aspx?id=%2Fsites%2FDigitalTechnologies-All%2FShared%20Documents%2FDT%20-%20Assets%2FBattery%20Optimization%2Fbattery_health_short_video%2Emp4&referrer=Teams%2ETEAMS-ELECTRON&referrerScenario=teamsSdk_ns-bim",
         },
@@ -481,6 +485,16 @@ const CategoriesPage = () => {
             "https://globalcsg.sharepoint.com/sites/DigitalTechnologies-All/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRSS%20Power%20BI%20Report%2F04%20Design%2F03%20HLD%20and%20LLD%2FHRSS%20Analytics%20Report%2D%20HLD%2Epdf&parent=%2Fsites%2FDigitalTechnologies%2DAll%2FShared%20Documents%2FDT%20%2D%20Assets%2FInternal%20BU%20Projects%2FHRSS%20Power%20BI%20Report%2F04%20Design%2F03%20HLD%20and%20LLD&p=true&ga=1&LOF=1",
           demoVideoLink:
             "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EUM3qWgpxL5ClpSN1lVebmkB0BuxSJKIIA0HEZYGjIPjRg?e=19n0d3",
+        },
+        {
+          title: "Choke Optimization",
+          description:
+            "AI-Powered Wellhead & Tank Monitoring Solution: Our AI/ML-driven Choke Optimization system uses real-time telemetry data to predict the current choke percentage and forecast future choke positions. This enables operators to proactively optimize well performance, maintain flow stability, and plan for efficient production management.",
+          icon: Gauge, // better than Truck
+          iconColor: "text-blue-500",
+          pitchDeckLink: "NA",
+          documentationLink: "NA",
+          demoVideoLink: "NA",
         },
       ],
     },

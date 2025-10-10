@@ -15,15 +15,7 @@ const CategoryItem = ({
   openVideoModal,
   demoVideoLink,
 }) => {
-  const isHRSSMobility =
-    title === "AI / ML Powered Invoice Processing." ||
-    title === "TFM" ||
-    title === "Freight Lane Status Prediction" ||
-    title === "Agentic AI - Data Pipeline" ||
-    title === "Choke Optimization" ||
-    title === "Creative’s MidStream Shield" ||
-    title === "Contract and Compliance Analyzer" ||
-    title === "Email Intent Classification";
+  const isHRSSMobility = title === "Choke Optimization";
 
   const [isHovered, setIsHovered] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
