@@ -15,7 +15,6 @@ import {
   LayoutDashboard,
   Globe,
   Plane,
-  Users,
   ClipboardList,
   Truck,
   TerminalSquare,
@@ -226,7 +225,7 @@ const CategoriesPage = () => {
             "https://globalcsg.sharepoint.com/:v:/s/DigitalTechnologies-All/EUA2Y5TZTxpGvvyXTJrAiDIBwc26VwImwaWGkgYsKYoPYA?e=GpMlUJ&isSPOFile=1&xsdata=MDV8MDJ8fGZlNzBiYTEwNjZmZjQwMDdhMzU2MDhkZTA1YzFmMjcyfGE5YzUwYzZjMmVjYzQ2NTM5OWIyNTgwMjRhZjkxODY2fDB8MHw2Mzg5NTQ1Mjc2ODc2MTUzMTh8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDJOb1lYUnpMekU1T2pjNU1HTmxaakUxTFdVMVltWXRORE5tT1MwNVkyUXdMVEV4TldJNU5HTXpPRFkwT1Y5ak0ySTROR0l5WVMxaVpUSTVMVFJqWW1NdE9UYzVaaTFrT1RsbVl6VXpNemczWW1aQWRXNXhMbWRpYkM1emNHRmpaWE12YldWemMyRm5aWE12TVRjMU9UZzFOVGsyTnpjMk1RPT18NWQxZTVlYjhhMGNjNDI2OGY4YTUwOGRlMDVjMWYyNzF8OTc5MzI4YjdmYmYwNGZlY2JmMTY1MGVkOWY0NjJiOGI%3D&sdata=NFVmTVBFK1BiaFJsSzVJUFNSczZucjlacFhRME5wcnNzQTBTVUVTRHFjMD0%3D&ovuser=a9c50c6c-2ecc-4653-99b2-58024af91866%2Cadhiyamaan.maharajan%40global-csg.com",
         },
         {
-          title: "TFM",
+          title: "AI / ML Powered Invoice Processing.",
           description:
             "Creative Synergies is currently handling travel requests using Excel-based forms. This project intends to convert these forms into a web-based application to manage the end-to-end workflow of travel requests across Domestic, Business, and Work Permit categories. The goal is to streamline submission, approval, and tracking processes for employees, managers, HR, and travel teams.",
           icon: Layers,
